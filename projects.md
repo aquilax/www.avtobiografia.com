@@ -3,21 +3,18 @@ layout: default
 title: Projects
 ---
 
-
-
-  <h1>Projects</h1>
-
+<h1>Projects</h1>
 {% for category in site.categories %}
-  <h2 id="{{ category | first}}">{{ category | first }}</h2>
-  {% for posts in category %}
-    {% for post in posts %}
-    <div>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="tech">Technologies used: <em>MySQL, PostgreSQL, ADODB, CSS</em></p>
-    </div>
-    {% endfor %}
-  {% endfor %}
+<h2 id="{{ category[0] }}-ref">{{ category[0] }}</h2>
+{% for post in category[1] %}
+  <div>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+{% if post.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in post.tags %} {{ tag }} {% endfor %}</em></p>{% endif %}
+  </div>
 {% endfor %}
+{% endfor %}
+
+
 
 
   <h2 id="jarcomputers">Projects in JAR Computers</h2>
