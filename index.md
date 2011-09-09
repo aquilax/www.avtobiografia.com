@@ -16,7 +16,7 @@ title: Avtobiografia
 <div id="projects">
   <h2>Recent projects</h2>
   <ul>
-    {% for post in site.posts %}
+    {% for post in site.posts limit 10 %}
       <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>

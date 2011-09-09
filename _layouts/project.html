@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<div class="project">
+{{ content }}
+</div>
+{% if page.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in page.tags %} {{ tag }} {% endfor %}</em></p>{% endif %}
