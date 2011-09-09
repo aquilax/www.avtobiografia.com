@@ -1,22 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Projects</title>
-  <style type="text/css">
-    body{font-family:Arial, Sans;font-size:14px;width:720px;margin:0 auto;}
-    .tech em{color:silver}
-    div{margin-left:1em;border-bottom:1px solid silver}    
-    h1{margin:1em 0; border-bottom: 3px solid #000}    
-    h2{margin:0.8em 0; border-bottom: 2px solid #000}    
-    @media print {
-      body{width:auto;margin:0;}
-      a{text-decoration:none;color:#000}
-    }
-  </style>
-</head>
-<body>
+---
+layout: default
+title: Projects
+---
+
+
+
   <h1>Projects</h1>
+
+{% for category in site.categories %}
+  <h2 id="{{ category | first}}">{{ category | first }}</h2>
+  {% for posts in category %}
+    {% for post in posts %}
+    <div>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="tech">Technologies used: <em>MySQL, PostgreSQL, ADODB, CSS</em></p>
+    </div>
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+
   <h2 id="jarcomputers">Projects in JAR Computers</h2>
   <div>
     <h3>MySql to PostgreSQL transfer for the e-commerce website</h3>
@@ -163,14 +166,3 @@
     <p>Rhyme dictionary</p>
     <p class="tech">Technologies used: <em>PHP, XHTML, CSS, MySQL</em></p>
   </div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-115818-51");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body>
-</html>

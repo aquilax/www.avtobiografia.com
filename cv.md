@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Evgeniy Vasilev</title>
-  <style type="text/css">
-    body{font-family:Arial, Sans;font-size:14px;width:720px;margin:0 auto;}
-    #cv{border-collapse:collapse}
-    #cv td, #cv th{padding: .4em .6em; vertical-align: top}
-    #cv th{width:250px; border-right:3px solid #cecece; text-align:right; font-weight:normal}
-    .b{font-weight:bold}
-    #cv th.h3{font-size:1.2em}
-    #cv th.h2{font-size:1.3em; font-weight:bold;padding:2em .6em 1em;}
-    #cv th.h1{font-size:1.4em}
-    @media print {
-      body{width:auto;margin:0;}
-      a{text-decoration:none;color:#000}
-    }
-  </style>
-</head>
-<body itemscope itemtype="http://schema.org/Person">
+---
+layout: cv
+title: CV
+---
+   
   <table id="cv">
     <tr>
       <th class="h1">European<br />curriculum vitae<br />format</th>
@@ -224,14 +208,3 @@
       <td>China, Hungary, India, Romania, Jordan</td>
     </tr>
   </table>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-115818-51");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body>
-</html>
