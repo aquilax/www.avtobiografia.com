@@ -2,6 +2,14 @@
 layout: default
 title: Avtobiografia
 ---
+
+You can find me on:
+* [GitHub](https://github.com/aquilax)
+* [LinkedIn](http://bg.linkedin.com/in/aquilax)
+* [Google+](https://plus.google.com/103587746021296602888)
+* [Twitter](http://twitter.com/aquilax)
+* [LastFM](http://www.last.fm/user/aquilax)
+
 <div id="pages">
   <h2>Pages</h2>
   <ul>
