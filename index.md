@@ -3,17 +3,17 @@ layout: default
 title: Avtobiografia
 ---
 
-Evgeniy Vasilev
-===============
-
-*exploring computers since 1995*
+<div id="card">
+  <h1>Evgeniy Vasilev</h1>
+  <em>exploring computers since 1995</em>
+</div>
 
 You can find me on:
-* [GitHub](https://github.com/aquilax)
-* [LinkedIn](http://bg.linkedin.com/in/aquilax)
-* [Google+](https://plus.google.com/103587746021296602888)
-* [Twitter](http://twitter.com/aquilax)
-* [LastFM](http://www.last.fm/user/aquilax)
+ [GitHub](https://github.com/aquilax),
+ [LinkedIn](http://bg.linkedin.com/in/aquilax),
+ [Google+](https://plus.google.com/103587746021296602888),
+ [Twitter](http://twitter.com/aquilax) or
+ [LastFM](http://www.last.fm/user/aquilax)
 
 <div id="pages">
   <h2>Pages</h2>

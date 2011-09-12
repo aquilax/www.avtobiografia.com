@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: Novi Geroi 2
 category: Games
 tags:

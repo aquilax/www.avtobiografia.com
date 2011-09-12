@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 category: JARComputers
 title: ERP Modules
 tags:
