@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: MySql to PostgreSQL transfer for the e-commerce website
 category: JARComputers
 tags:

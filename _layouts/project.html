@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
+<nav itemprop="breadcrumb">
+  <a href="/">Home</a> &raquo;
+  <a href="/projects.html">Projects</a> &raquo;
+  {{ page.title }}
+</nav>
 
 <h2>{{ page.title }}</h2>
 <div class="project">
 {{ content }}
 </div>
-{% if page.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in page.tags %} {{ tag }} {% endfor %}</em></p>{% endif %}
+{% if page.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in page.tags %} <span class="tag" rel="tag">{{ tag }}</span> {% endfor %}</em></p>{% endif %}

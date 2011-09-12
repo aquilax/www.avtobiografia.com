@@ -3,6 +3,11 @@ layout: default
 title: Avtobiografia
 ---
 
+Evgeniy Vasilev
+===============
+
+*exploring computers since 1995*
+
 You can find me on:
 * [GitHub](https://github.com/aquilax)
 * [LinkedIn](http://bg.linkedin.com/in/aquilax)
@@ -25,7 +30,7 @@ You can find me on:
   <h2>Recent projects</h2>
   <ul>
     {% for post in site.posts limit 10 %}
-      <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}">{{ post.title }}</a> - <em>{{ post.date | date_to_string }}</em></li>
     {% endfor %}
   </ul>
 </div>

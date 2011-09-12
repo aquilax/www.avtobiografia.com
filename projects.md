@@ -3,13 +3,18 @@ layout: default
 title: Projects
 ---
 
+<nav itemprop="breadcrumb">
+  <a href="/">Home</a> &raquo;
+  {{ page.title }}
+</nav>
+
 <h1>Projects</h1>
 {% for category in site.categories %}
 <h2 id="{{ category[0] }}-ref">{{ category[0] }}</h2>
 {% for post in category[1] %}
-  <div>
+  <div class="bb">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-{% if post.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in post.tags %} {{ tag }} {% endfor %}</em></p>{% endif %}
+{% if post.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in post.tags %} <span class="tag" rel="tag">{{ tag }}</span> {% endfor %}</em></p>{% endif %}
   </div>
 {% endfor %}
 {% endfor %}
