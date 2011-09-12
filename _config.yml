@@ -7,3 +7,9 @@ email: aquilax@gmail.com
 
 google_analytics:
   account: UA-115818-51
+
+mini_magick:
+  normal:
+    source: original_images/
+    destination: img/
+    resize: "584x600"
