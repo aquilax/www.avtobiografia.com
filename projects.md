@@ -20,8 +20,6 @@ title: Projects
 {% endfor %}
 
 
-
-
   <h2 id="jarcomputers">Projects in JAR Computers</h2>
   <div>
     <h3>MySql to PostgreSQL transfer for the e-commerce website</h3>

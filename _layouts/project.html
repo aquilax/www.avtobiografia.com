@@ -8,7 +8,7 @@ layout: default
 </nav>
 
 <h2>{{ page.title }}</h2>
+{% if page.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in page.tags %} <span class="tag" rel="tag">{{ tag }}</span> {% endfor %}</em></p>{% endif %}
 <div class="project">
 {{ content }}
 </div>
-{% if page.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in page.tags %} <span class="tag" rel="tag">{{ tag }}</span> {% endfor %}</em></p>{% endif %}
