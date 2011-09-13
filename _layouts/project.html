@@ -7,8 +7,15 @@ layout: default
   {{ page.title }}
 </nav>
 
-<h2>{{ page.title }}</h2>
+<h2>{{ page.title }} <g:plusone size="small" annotation="none"></g:plusone></h2>
 {% if page.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in page.tags %} <span class="tag" rel="tag">{{ tag }}</span> {% endfor %}</em></p>{% endif %}
 <div class="project">
 {{ content }}
 </div>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
