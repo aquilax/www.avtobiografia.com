@@ -12,4 +12,4 @@ mini_magick:
   normal:
     source: original_images/
     destination: img/
-    resize: "584x600"
+    resize: "560x600"
