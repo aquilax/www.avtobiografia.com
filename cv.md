@@ -43,7 +43,7 @@ title: CV
     </tr>
     <tr>
       <th>Name and address of employer</th>
-      <td><a itemprop="worksFor" href="projects.html#jarcomputers">JAR Computers</a>, Sofia, Bulgaria</td>
+      <td><a itemprop="worksFor" href="projects.html#JARComputers-ref">JAR Computers</a>, Sofia, Bulgaria</td>
     </tr>
     <tr>
       <th>Type of business or sector</th>
@@ -64,7 +64,7 @@ title: CV
     </tr>
     <tr>
       <th>Name and address of employer</th>
-      <td><a itemprop="worksFor" href="projects.html#office1">Office 1 Bulgaria</a>, Sofia, Bulgaria</td>
+      <td><a itemprop="worksFor" href="projects.html">Office 1 Bulgaria</a>, Sofia, Bulgaria</td>
     </tr>
     <tr>
       <th>Type of business or sector</th>
@@ -86,7 +86,7 @@ title: CV
     </tr>
     <tr>
       <th>Name and address of employer</th>
-      <td><a itemprop="worksFor" href="projects.html#office1">Office 1 International</a> - branch Bulgaria, Sofia, Bulgaria</td>
+      <td><a itemprop="worksFor" href="projects.html#Office1International-ref">Office 1 International</a> - branch Bulgaria, Sofia, Bulgaria</td>
     </tr>
     <tr>
       <th>Type of business or sector</th>
@@ -107,7 +107,7 @@ title: CV
     </tr>
     <tr>
       <th>Name and address of employer</th>
-      <td><a itemprop="worksFor" href="projects.html#911">911.bg</a>, Sofia, Bulgaria</td>
+      <td><a itemprop="worksFor" href="projects.html#911.bg-ref">911.bg</a>, Sofia, Bulgaria</td>
     </tr>
     <tr>
       <th>Type of business or sector</th>
