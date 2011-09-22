@@ -132,37 +132,3 @@ title: Projects
     <p>Mu Online game information.</p>
     <p class="tech">Technologies used: <em>PHP, XHTML, CSS, MySQL, Google Chart API</em></p>
   </div>
-  <div>
-    <h3><a href="http://citatnik.appspot.com">Bulgarian movie quotes</a></h3>
-    <p class="tech">Technologies used: <em>Python, Google App Engine, XHTML, CSS</em></p>
-  </div>
-  <div>
-    <h3><a href="http://scenata.com">Scenata</a></h3>
-    <p>Musical events and band profiles</p>
-    <p class="tech">Technologies used: <em>PHP, XHTML, CSS, MySQL, Last FM API</em></p>
-  </div>
-  <div>
-    <h3><a href="http://diggbg.com">DiggBG</a></h3>
-    <p>Social bookmarking website</p>
-    <p class="tech">Technologies used: <em>PHP, XHTML, CSS, MySQL, CodeIgniter</em></p>
-  </div>
-  <div>
-    <h3><a href="http://bgmacki.com">BGMacki</a></h3>
-    <p>HOT or NOT for cats</p>
-    <p class="tech">Technologies used: <em>PHP, XHTML, CSS, MySQL, CodeIgniter</em></p>
-  </div>
-  <div>
-    <h3><a href="http://blog.horemag.net">Horemag</a></h3>
-    <p>Personal blog</p>
-    <p class="tech">Technologies used: <em>WordPress</em></p>
-  </div>
-  <div>
-    <h3><a href="http://dev.horemag.net">Horemag Dev</a></h3>
-    <p>Development blog</p>
-    <p class="tech">Technologies used: <em>WordPress</em></p>
-  </div>
-  <div>
-    <h3><a href="http://rimichka.com">Rimichka</a></h3>
-    <p>Rhyme dictionary</p>
-    <p class="tech">Technologies used: <em>PHP, XHTML, CSS, MySQL</em></p>
-  </div>
