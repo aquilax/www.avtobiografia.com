@@ -122,13 +122,3 @@ title: Projects
     <p>General practitioners index.</p>
     <p class="tech">Technologies used: <em>PHP, CodeIgniter, XHTML, Blueprint, CSS, MySQL, Google Maps API, Data Mining</em></p>
   </div>
-  <div>
-    <h3><a href="http://hranenedieta.com">Hranene - Dieta</a></h3>
-    <p>Nutritional information index.</p>
-    <p class="tech">Technologies used: <em>PHP, CodeIgniter, XHTML, Blueprint, CSS, MySQL, Google Chart API</em></p>
-  </div>
-  <div>
-    <h3><a href="http://muonlinehelp.com">Mu Online Help</a></h3>
-    <p>Mu Online game information.</p>
-    <p class="tech">Technologies used: <em>PHP, XHTML, CSS, MySQL, Google Chart API</em></p>
-  </div>
