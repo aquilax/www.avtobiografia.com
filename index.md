@@ -17,7 +17,6 @@ Some of the places I can be found online are:
  [Twitter](http://twitter.com/aquilax) or
  [LastFM](http://www.last.fm/user/aquilax)
 
-
 <div id="projects">
   <h2>Projects</h2>
   <ul>
