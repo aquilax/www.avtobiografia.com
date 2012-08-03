@@ -14,6 +14,6 @@ Itemara is simply barcode database created and maintained by me.
 
 Links:
 
-* [Итемара](http://itemara.bazadanni.com)
+* [Баркодове Итемара](http://barcode.bazadanni.com)
 
 ![Screenshot](/img/itemara.bazadanni.com.png)

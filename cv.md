@@ -129,7 +129,7 @@ title: CV
 
     <tr>
       <th>Dates (from – to)</th>
-      <td class="b">1999 - not finished</td>
+      <td class="b">1999 - 2012</td>
     </tr>
     <tr>
       <th>Name and type of organization providing education and training</th>

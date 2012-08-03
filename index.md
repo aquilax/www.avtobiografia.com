@@ -8,10 +8,11 @@ title: Avtobiografia
   <em>exploring computers since 1995</em>
 </div>
 
-You can Download or view my **CV** from [here](/cv.html).
+You can check my [CV](/cv.html).
 
 Some of the places I can be found online are:
  [GitHub](https://github.com/aquilax),
+ [oDesk](https://www.odesk.com/users/~~358191f109ac5b46),
  [LinkedIn](http://bg.linkedin.com/in/aquilax),
  [Google+](https://plus.google.com/103587746021296602888),
  [Twitter](http://twitter.com/aquilax) or

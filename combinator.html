@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL Combinator</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<style>table{width:100%} td{width:25%} textarea{width:100%; height: 300px}</style>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-115818-51']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+	<h1><a href="http://www.avtobiografia.com">URL Combinator</a></h1>
+	<table>
+		<tr>
+			<td><h4>URLs</h4><textarea id="id1"></textarea></td>
+			<td><h4>Titles</h4><textarea id="id2"></textarea></td>
+			<td><h4>Anchors</h4><textarea id="id3"></textarea></td>
+			<td><h4>Result</h4><textarea id="id4"></textarea></td>
+		</tr>
+	</table>
+	<button onclick="combine()">Combine</button>
+<script>
+function url (url, title, anchor) {
+	return '<a href="'+url+'" title="'+title+'">'+anchor+'</a>';
+}
+
+function rand (n){
+	return Math.round(Math.random()*n)
+}
+
+function combine(){
+  var id1 = document.getElementById('id1');
+	var id2 = document.getElementById('id2');
+	var id3 = document.getElementById('id3');
+ 	var id4 = document.getElementById('id4');
+
+	var urls = id1.value.split("\n");
+  var titles = id2.value.split("\n");
+	var anchors = id3.value.split("\n");
+
+	var text = "";
+	var tc = titles.length-1;
+	var ac = anchors.length-1;
+
+	for (var i = 0; i < urls.length; i++){		
+		text += url(urls[i], titles[rand(tc)], anchors[rand(ac)])+"\n"
+	}
+	id4.value = text;
+}
+</script>
+</body>
+</html>
+
