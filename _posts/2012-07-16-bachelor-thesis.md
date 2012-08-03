@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Bachelor Thesis - Online system for railway ticket reservations
+title: Bachelor Thesis
 category: Publications
 tags: 
 - AsciiDoc
