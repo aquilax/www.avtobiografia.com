@@ -3,7 +3,7 @@ layout: project
 category: JARComputers
 title: ERP Modules
 tags:
-- php
+- PHP
 - CodeIgniter
 - PostgreSQL
 ---

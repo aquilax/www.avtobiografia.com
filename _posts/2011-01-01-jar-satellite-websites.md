@@ -3,7 +3,7 @@ layout: project
 title: Satellite websites
 category: JARComputers
 tags:
-- php
+- PHP
 - CodeIgniter
 - PostgreSQL
 ---

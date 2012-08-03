@@ -3,7 +3,7 @@ layout: project
 title: Emigration guide
 category: Personal
 tags:
-- Jelyll
+- jekyll
 ---
 
 Emigration guide

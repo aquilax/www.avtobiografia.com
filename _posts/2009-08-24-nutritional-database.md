@@ -3,8 +3,8 @@ layout: project
 title: Nutritional database
 category: Personal
 tags: 
-- data mining
-- php
+- Data Mining
+- PHP
 - CodeIgniter
 - Google Chart Tools
 - MySQL

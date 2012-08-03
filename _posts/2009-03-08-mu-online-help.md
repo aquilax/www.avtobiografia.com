@@ -4,10 +4,10 @@ title: Mu Online Help
 category: Personal
 tags:
 - MySQL
-- php
+- PHP
 - MediaWiki
 - design
-- css
+- CSS
 ---
 
 Actually I've never played Mu Online. The page aims to help the players identify game's objects. There are also wiki and a forum attached.

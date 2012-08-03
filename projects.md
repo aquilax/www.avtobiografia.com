@@ -14,7 +14,7 @@ title: Projects
 {% for post in category[1] %}
   <div class="bb">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-{% if post.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in post.tags %} <span class="tag" rel="tag">{{ tag }}</span> {% endfor %}</em></p>{% endif %}
+{% if post.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in post.tags %} <span class="tag" rel="tag"><a href="/tag/{{ tag }}">{{ tag }}</a></span> {% endfor %}</em></p>{% endif %}
   </div>
 {% endfor %}
 {% endfor %}

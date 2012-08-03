@@ -3,9 +3,10 @@ layout: project
 title: E-commerce websites
 category: Office1International
 tags:
-- php
+- PHP
 - XHTML
 - CSS
+- MySQL
 ---
 
 E-commerce system and several frontend templates for Web retail stores.

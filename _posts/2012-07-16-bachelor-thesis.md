@@ -3,11 +3,11 @@ layout: project
 title: Bachelor Thesis - Online system for railway ticket reservations
 category: Personal
 tags: 
-- go
-- php
-- mysql
-- graph_theory
-- asciidoc
+- Go
+- PHP
+- MySQL
+- Graph Theory
+- AsciiDoc
 ---
 
 I graduated the Techincal university in Sofia with my bachelor thesis being "Online system for railway ticket reservations".

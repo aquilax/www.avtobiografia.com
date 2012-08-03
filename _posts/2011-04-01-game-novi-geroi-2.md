@@ -3,7 +3,7 @@ layout: project
 title: Novi Geroi 2
 category: Games
 tags:
-- php
+- PHP
 - CodeIgniter
 - jQuery
 - JavaScript

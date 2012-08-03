@@ -3,7 +3,7 @@ layout: project
 title: Cows'n Bulls game
 category: Games
 tags:
-- php
+- PHP
 ---
 
 There is competition going on in [bbGameZone](http://community.bbgamezone.net/index.php/topic,2705.0.html). I decided to participate with small Bulls and cows game:

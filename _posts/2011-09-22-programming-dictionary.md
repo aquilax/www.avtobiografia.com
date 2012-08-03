@@ -3,10 +3,10 @@ layout: project
 title: Programming dictionary
 category: Publications
 tags:
-- php
+- PHP
 - ruby
 - Go
-- sql
+- SQL
 ---
 
 Most of the modern language share similar basic concepts. The purpose of this short manual is to help me learn Ruby and also to be used as a quick cross reference.

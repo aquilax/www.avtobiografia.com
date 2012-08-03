@@ -3,7 +3,7 @@ layout: project
 title: Itemara - barcode database
 category: Personal
 tags:
-- php
+- PHP
 - CodeIgniter
 - MySQL
 - PostgreSQL

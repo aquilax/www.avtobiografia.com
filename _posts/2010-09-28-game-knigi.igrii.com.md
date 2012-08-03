@@ -3,7 +3,7 @@ layout: project
 title: Interactive fiction basic system
 category: Games
 tags:
-- php
+- PHP
 - CodeIgniter
 - jQuery
 - MySQL

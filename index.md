@@ -19,10 +19,16 @@ Some of the places I can be found online are:
  [LastFM](http://www.last.fm/user/aquilax)
 
 <div id="projects">
-  <h2>Projects</h2>
+  <h2>Latest Projects</h2>
   <ul>
-    {% for post in site.posts limit 10 %}
+    {% for post in site.posts limit:10%}
       <li><a href="{{ post.url }}">{{ post.title }}</a> - <em>{{ post.date | date_to_string }}</em></li>
     {% endfor %}
   </ul>
+  <p class="ar">List of <a href="/projects.html">all my projects</a>...</p>
+</div>
+
+<div class='cloud'>
+  <h2>Skills cloud</h2>
+	{% tag_cloud %}
 </div>

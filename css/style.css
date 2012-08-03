@@ -9,11 +9,11 @@ a{color: #000}
 a:hover{color: #000}
 a:visited{color: #333}
 .red{color:#ef2929}
-.tech em{color:silver}
+.tech em a{color:silver; text-decoration:none}
 div.bb{margin-left:1em;border-bottom:1px solid silver}    
 h2{margin:0.8em 0; border-bottom: 2px solid #000}
 li{margin: 0 0 0.4em 0}
-.tag:hover{color:#333; cursor:pointer;}
+.tag a:hover{color:#333; cursor:pointer;}
 @media print {
   body{width:auto;margin:0;}
   a{text-decoration:none;color:#000}
@@ -24,3 +24,4 @@ li{margin: 0 0 0.4em 0}
 .project img{background-color:#f7f7f7; padding: 12px}
 .author{text-align:right}
 .author a{color:#cecece; text-decoration:none}
+.ar{text-align:right}

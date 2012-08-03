@@ -3,7 +3,7 @@ layout: project
 title: Earthquake information portal
 category: Personal
 tags:
-- Jelyll
+- jekyll
 ---
 
 Zemetresenie.com offers information about the most recent earthquakes;

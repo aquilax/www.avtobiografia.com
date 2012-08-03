@@ -3,8 +3,7 @@ layout: project
 title: Super Igra
 category: Games
 tags:
-
-- php
+- PHP
 - CodeIgniter
 - JavaScript
 - jQuery

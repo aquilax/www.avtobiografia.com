@@ -3,7 +3,7 @@ layout: project
 title: Jarmen mailing list
 category: JARComputers
 tags:
-- php
+- PHP
 - PostgreSQL
 ---
 
