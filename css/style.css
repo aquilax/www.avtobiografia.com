@@ -25,7 +25,8 @@ li{margin: 0 0 0.4em 0}
 }
 #card{text-align:center; border-top: 1px dashed #cecece;border-bottom: 1px dashed #cecece; margin: 1em 0; padding: 2em 0;}
 #card h1{margin:0; padding:0}
-.sym{font-size:2em; color: #cecece; text-align:center; maring: 1em 0 0}
+.sym{font-size:2em; color: #cecece; text-align:center; margin: 1em 0 0;font-weight: bold;}
+.sym span:hover{text-shadow:0 0 0.2em #EF2929, 0 0 0.2em #EF2929; cursor:pointer;}
 .project img{background-color:#f7f7f7; padding: 12px}
 .author{text-align:right}
 .author a{color:#cecece; text-decoration:none}
