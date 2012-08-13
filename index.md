@@ -11,6 +11,7 @@ title: Avtobiografia
 You can check my [CV](/cv.html).
 
 Some of the places I can be found online are:
+ [About.me](http://about.me/aquilax),
  [GitHub](https://github.com/aquilax),
  [oDesk](https://www.odesk.com/users/~~358191f109ac5b46),
  [LinkedIn](http://bg.linkedin.com/in/aquilax),

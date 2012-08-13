@@ -7,6 +7,7 @@ tags:
 - PHP
 - MySQL
 - Graph Theory
+- Twitter Bootstrap
 ---
 
 This online reservation system is a working demo for my bachelor thesis: "Online system for railway ticket reservations".

@@ -51,7 +51,7 @@ title: CV
     </tr>
     <tr>
       <th>Occupation or position held</th>
-      <td itemprop="jobTitle">Web Developer</td>
+      <td itemprop="jobTitle">Full Stack Web Developer</td>
     </tr>
     <tr>
       <th>Main activities and responsibilities</th>
