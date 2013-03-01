@@ -16,6 +16,7 @@ Some of the places I can be found online are:
  [oDesk](https://www.odesk.com/users/~~358191f109ac5b46),
  [LinkedIn](http://bg.linkedin.com/in/aquilax),
  [Google+](https://plus.google.com/103587746021296602888),
+ [GoodReads](http://www.goodreads.com/user/show/2821810-evgeniy-vasilev),
  [Twitter](http://twitter.com/aquilax) or
  [LastFM](http://www.last.fm/user/aquilax)
 

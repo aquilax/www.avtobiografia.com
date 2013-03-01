@@ -39,7 +39,50 @@ title: CV
 
     <tr>
       <th>Dates (from – to)</th>
-      <td class="b">April 2008 - current</td>
+      <td class="b">March 2013 - Current</td>
+    </tr>
+    <tr>
+      <th>Name and address of employer</th>
+      <td><a itemprop="worksFor" href="projects.html#DarkiumStudio-ref">Darkium Studio</a>, Sofia, Bulgaria</td>
+    </tr>
+    <tr>
+      <th>Type of business or sector</th>
+      <td>Web development</td>
+    </tr>
+    <tr>
+      <th>Occupation or position held</th>
+      <td itemprop="jobTitle">Web Developer</td>
+    </tr>
+    <tr>
+      <th>Main activities and responsibilities</th>
+      <td>...too soon to tell</td>
+    </tr>
+
+
+    <tr>
+      <th>Dates (from – to)</th>
+      <td class="b">October 2012 - February 2013</td>
+    </tr>
+    <tr>
+      <th>Name and address of employer</th>
+      <td><a itemprop="worksFor" href="projects.html#WebinfluenceStudio-ref">Webinfluence Studio</a>, Sofia, Bulgaria</td>
+    </tr>
+    <tr>
+      <th>Type of business or sector</th>
+      <td>Web development</td>
+    </tr>
+    <tr>
+      <th>Occupation or position held</th>
+      <td itemprop="jobTitle">Web Developer</td>
+    </tr>
+    <tr>
+      <th>Main activities and responsibilities</th>
+      <td>Front and back-end development</td>
+    </tr>
+
+    <tr>
+      <th>Dates (from – to)</th>
+      <td class="b">April 2008 - September 2012</td>
     </tr>
     <tr>
       <th>Name and address of employer</th>
