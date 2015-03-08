@@ -30,7 +30,7 @@ title: CV
     </tr>
     <tr>
       <th>Current location</th>
-      <td itemprop="homeLocation">Bulgaria, Sofia</td>
+      <td itemprop="homeLocation">Poland, Poznań</td>
     </tr>    
     <tr>
       <th class="h2">Work experience</th>
@@ -39,7 +39,28 @@ title: CV
 
     <tr>
       <th>Dates (from – to)</th>
-      <td class="b">March 2013 - Current</td>
+      <td class="b">October 2013 - January 2015</td>
+    </tr>
+    <tr>
+      <th>Name and address of employer</th>
+      <td><a itemprop="worksFor" href="projects.html#wikia-ref">Wikia</a>, Poznan, Poland</td>
+    </tr>
+    <tr>
+      <th>Type of business or sector</th>
+      <td>Web communities</td>
+    </tr>
+    <tr>
+      <th>Occupation or position held</th>
+      <td itemprop="jobTitle">Software Engineer</td>
+    </tr>
+    <tr>
+      <th>Main activities and responsibilities</th>
+      <td>Frontend, and backend web development. Selenium testing</td>
+    </tr>
+
+    <tr>
+      <th>Dates (from – to)</th>
+      <td class="b">March 2013 - October 2013</td>
     </tr>
     <tr>
       <th>Name and address of employer</th>
@@ -55,7 +76,7 @@ title: CV
     </tr>
     <tr>
       <th>Main activities and responsibilities</th>
-      <td>...too soon to tell</td>
+      <td>PHP development. Coffeescript development</td>
     </tr>
 
 

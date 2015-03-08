@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/aquilax
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.avtobiografia.com
+  * I am aquilax (https://keybase.io/aquilax) on keybase.
+  * I have a public key with fingerprint 3A08 01C8 95EA 2858 ABB3  45CA 7595 95CF 15EE E430
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "3a0801c895ea2858abb345ca759595cf15eee430",
+            "host": "keybase.io",
+            "key_id": "759595cf15eee430",
+            "kid": "01018041892242296c8f9790f6fc1083a98716a5363647b99ae23f7a7813e551a9f10a",
+            "uid": "b2929e5bf09c66e5ed6e7a081a404600",
+            "username": "aquilax"
+        },
+        "service": {
+            "hostname": "www.avtobiografia.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422618955,
+    "expire_in": 157680000,
+    "prev": "fa587a38921dbb472677bab3a6486fc8e4e7d7d5bc0909088be72c93890165d9",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIoAnicbZJbSFRBGMd3t1rTMLsSFEQd8aFSO7c5M2fpBpmlGVKUFlTLzNk56zE9
+Zz17dtclFemiFfVS+iCWD/qQ2U2kSCLUNIiyC9u9h+hG0UORBN0opDlSb833MMw3
+/+/3zf9jbmRO8mR4r13MOdhe8fuMd/T6hphn62jNxr0csUJJLrCX20MnNt0ww9SO
+2IbpcAFOwjziBQ2pgGIRAYQJkWSgYQhUFpouAEqpLPFcLldhRd0KhiE4SvMNi+XY
+IWiEWPY/+j0TF7zAC4iXBaSKoiyKqqIhXYUqryu6JvBIwiqCgoKBpEiKDImqYipK
+OsQQCRIFQMCqLvCY4WITOCKqokoB0XlVUxQKaEihkHkQsMzLCu/2jUWpbeJqytS4
+JmZU4VquPpdjybihUXcCrpG/gkQikY/jjkUMK2xj3cD5mlXNGBHbcizNqmKSCseJ
+BFyCk4xMlFAS/AsLEsMMsXGygji1o4ZlcgGBKTXHcOkC86sw4wDkcrQ2Ytg0aLgK
+ABXEs+W2oXGG1DFAEEtsREKIEBmKCoQEEwkrMmJjQlSmMARDgGi8ygIhQqGoqayA
+FxQQUjnXXo1pcQHEnonDDBk1wiZ2Yjbl6oeHdk72eDM8/ik+90N4MtJn/Psm2++k
+jYPBF4lZz36/Gt7xsL98/8v2Mv9H+3Jf7/N57wvLtunRfh851Fw8d5fW+mll28Dm
+xONlvRWVNQ3D+57fWFeUvJk6Na2n83ivQEqONR661/Y127m7/MvHXwt8nh8deYtO
+dsqNvvXvRhf66j+Mid6mR1Obn5qZ6d23ulp+0qHyB7Nh8a20vJ5Vn28/U66cq+z6
+trBysIAfuHtk0/fWtXObeuY3lpaVBUeyHlYe+Pm2bklLyci0+21Hg0Xj7dlZ/jsr
+/CPlrwuGPhTO9CfXNWzpC//Y3V6Xiifn1O4cawie7ijtzjZPjK/RXtVlXXoSTk1f
+W9Vcd371bpL+5kIOXKqlSs82XV18+A9wQSuN
+=2QTO
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aquilax
+
+==================================================================
+

@@ -1,0 +1,663 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>pe2013 » \Pe2013\Pe</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">pe2013</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/pe2013.html"><i class="icon-folder-open"></i> pe2013</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul><li class="method public "><a href="#method_start" title="start :: Starts the whole calculation process"><span class="description">Starts the whole calculation process</span><pre>start()</pre></a></li></ul>
+</li>
+<li class="nav-header private">» Private
+                    <ul>
+<li class="method private "><a href="#method_addNum" title="addNum :: Add number to array key helper function"><span class="description">Add number to array key helper function</span><pre>addNum()</pre></a></li>
+<li class="method private "><a href="#method_candidateProcessor" title="candidateProcessor :: Processes the Candidates file"><span class="description">Processes the Candidates file</span><pre>candidateProcessor()</pre></a></li>
+<li class="method private "><a href="#method_checkSolution" title="checkSolution :: Check if the current solution is correct"><span class="description">Check if the current solution is correct</span><pre>checkSolution()</pre></a></li>
+<li class="method private "><a href="#method_cikSort" title="cikSort :: Sort helper function"><span class="description">Sort helper function</span><pre>cikSort()</pre></a></li>
+<li class="method private "><a href="#method_generateHareTable" title="generateHareTable :: Generates Hare's table"><span class="description">Generates Hare's table</span><pre>generateHareTable()</pre></a></li>
+<li class="method private "><a href="#method_getBucket" title="getBucket :: Returns the proper data bucket for candidate (party or inie)"><span class="description">Returns the proper data bucket for candidate (party or inie)</span><pre>getBucket()</pre></a></li>
+<li class="method private "><a href="#method_getElements" title="getElements :: Get $total properly sorted elements from array"><span class="description">Get $total properly sorted elements from array</span><pre>getElements()</pre></a></li>
+<li class="method private "><a href="#method_getMaxRemainderForMir" title="getMaxRemainderForMir :: Returns the maximum remainder for MIR"><span class="description">Returns the maximum remainder for MIR</span><pre>getMaxRemainderForMir()</pre></a></li>
+<li class="method private "><a href="#method_getMirTotalVotes" title="getMirTotalVotes :: Returns the total votes for MIR"><span class="description">Returns the total votes for MIR</span><pre>getMirTotalVotes()</pre></a></li>
+<li class="method private "><a href="#method_loadData" title="loadData :: Load input files"><span class="description">Load input files</span><pre>loadData()</pre></a></li>
+<li class="method private "><a href="#method_loader" title="loader :: Common CSV File loadre"><span class="description">Common CSV File loadre</span><pre>loader()</pre></a></li>
+<li class="method private "><a href="#method_lotProcessor" title="lotProcessor :: Processes the Lot file"><span class="description">Processes the Lot file</span><pre>lotProcessor()</pre></a></li>
+<li class="method private "><a href="#method_mirProcessor" title="mirProcessor :: Processes the Mir file"><span class="description">Processes the Mir file</span><pre>mirProcessor()</pre></a></li>
+<li class="method private "><a href="#method_partyProcessor" title="partyProcessor :: Processes the Parties file"><span class="description">Processes the Parties file</span><pre>partyProcessor()</pre></a></li>
+<li class="method private "><a href="#method_populateResults" title="populateResults :: Populates the result array with parties mandates"><span class="description">Populates the result array with parties mandates</span><pre>populateResults()</pre></a></li>
+<li class="method private "><a href="#method_processData" title="processData :: Main data crunching function"><span class="description">Main data crunching function</span><pre>processData()</pre></a></li>
+<li class="method private "><a href="#method_processIndependentCandidates" title="processIndependentCandidates :: Process Independent candidates"><span class="description">Process Independent candidates</span><pre>processIndependentCandidates()</pre></a></li>
+<li class="method private "><a href="#method_processPartyProportionalMandates" title="processPartyProportionalMandates :: Calculates the proprtional mandates for parties"><span class="description">Calculates the proprtional mandates for parties</span><pre>processPartyProportionalMandates()</pre></a></li>
+<li class="method private "><a href="#method_rearrangeMandates" title="rearrangeMandates :: Rearranges mandates according to Section 3.3"><span class="description">Rearranges mandates according to Section 3.3</span><pre>rearrangeMandates()</pre></a></li>
+<li class="method private "><a href="#method_remainder" title="remainder :: Calculate remainder as int"><span class="description">Calculate remainder as int</span><pre>remainder()</pre></a></li>
+<li class="method private "><a href="#method_removePartiesBelowMinVotesLimit" title="removePartiesBelowMinVotesLimit :: Remove parties with wotes below the VOTE_BAREER"><span class="description">Remove parties with wotes below the VOTE_BAREER</span><pre>removePartiesBelowMinVotesLimit()</pre></a></li>
+<li class="method private "><a href="#method_saveData" title="saveData :: Saves output data"><span class="description">Saves output data</span><pre>saveData()</pre></a></li>
+<li class="method private "><a href="#method_voteProcessor" title="voteProcessor :: Processes the Votes file"><span class="description">Processes the Votes file</span><pre>voteProcessor()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties
+                    <ul></ul>
+</li>
+<li class="nav-header private">» Private
+                    <ul>
+<li class="property private "><a href="#property_abroad_mir_id" title="$abroad_mir_id :: Abroad mir id"><span class="description"></span><pre>$abroad_mir_id</pre></a></li>
+<li class="property private "><a href="#property_ind_candidates" title="$ind_candidates :: Independent candidates"><span class="description"></span><pre>$ind_candidates</pre></a></li>
+<li class="property private "><a href="#property_lot" title="$lot :: Lot"><span class="description"></span><pre>$lot</pre></a></li>
+<li class="property private "><a href="#property_mir_total_votes" title="$mir_total_votes :: Votes per MIR"><span class="description"></span><pre>$mir_total_votes</pre></a></li>
+<li class="property private "><a href="#property_mirs" title="$mirs :: Basic data structures"><span class="description"></span><pre>$mirs</pre></a></li>
+<li class="property private "><a href="#property_parties" title="$parties :: Parties structure"><span class="description"></span><pre>$parties</pre></a></li>
+<li class="property private "><a href="#property_parties_with_extra_mandates" title="$parties_with_extra_mandates :: Parties with extra mandates"><span class="description"></span><pre>$parties_with_extra_mandates</pre></a></li>
+<li class="property private "><a href="#property_party_list" title="$party_list :: List of parties"><span class="description"></span><pre>$party_list</pre></a></li>
+<li class="property private "><a href="#property_party_votes" title="$party_votes :: Votes per party"><span class="description"></span><pre>$party_votes</pre></a></li>
+<li class="property private "><a href="#property_proportional_mandates" title="$proportional_mandates :: Proprional mandates list"><span class="description"></span><pre>$proportional_mandates</pre></a></li>
+<li class="property private "><a href="#property_results" title="$results :: Vote results"><span class="description"></span><pre>$results</pre></a></li>
+<li class="property private "><a href="#property_total_mandates" title="$total_mandates :: Total mandates counter"><span class="description"></span><pre>$total_mandates</pre></a></li>
+<li class="property private "><a href="#property_total_votes" title="$total_votes :: Total votes counter"><span class="description"></span><pre>$total_votes</pre></a></li>
+</ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-constant"></i> Constants
+                    <ul>
+<li class="constant  "><a href="#constant_CANDIDATE_FILENAME" title="CANDIDATE_FILENAME :: Candidates filename"><span class="description">Candidates filename</span><pre>CANDIDATE_FILENAME</pre></a></li>
+<li class="constant  "><a href="#constant_ERROR_FILE_LOAD" title="ERROR_FILE_LOAD :: File load error"><span class="description">File load error</span><pre>ERROR_FILE_LOAD</pre></a></li>
+<li class="constant  "><a href="#constant_ERROR_LOT_1" title="ERROR_LOT_1 :: No lot error (proportional)"><span class="description">No lot error (proportional)</span><pre>ERROR_LOT_1</pre></a></li>
+<li class="constant  "><a href="#constant_ERROR_LOT_2" title="ERROR_LOT_2 :: No lot error (MIR)"><span class="description">No lot error (MIR)</span><pre>ERROR_LOT_2</pre></a></li>
+<li class="constant  "><a href="#constant_ERROR_WRONG_DATA" title="ERROR_WRONG_DATA :: Wrong data error"><span class="description">Wrong data error</span><pre>ERROR_WRONG_DATA</pre></a></li>
+<li class="constant  "><a href="#constant_HARE_REMAINDER" title="HARE_REMAINDER :: Hare remainders"><span class="description">Hare remainders</span><pre>HARE_REMAINDER</pre></a></li>
+<li class="constant  "><a href="#constant_LOT_FILENAME" title="LOT_FILENAME :: Lot filename"><span class="description">Lot filename</span><pre>LOT_FILENAME</pre></a></li>
+<li class="constant  "><a href="#constant_MIR_FILENAME" title="MIR_FILENAME :: Mirs filename"><span class="description">Mirs filename</span><pre>MIR_FILENAME</pre></a></li>
+<li class="constant  "><a href="#constant_PARTIES_FILENAME" title="PARTIES_FILENAME :: Parties filename"><span class="description">Parties filename</span><pre>PARTIES_FILENAME</pre></a></li>
+<li class="constant  "><a href="#constant_PRE_MANDATES_BASE" title="PRE_MANDATES_BASE :: Base pre-mandates"><span class="description">Base pre-mandates</span><pre>PRE_MANDATES_BASE</pre></a></li>
+<li class="constant  "><a href="#constant_PRE_MANDATES_EXTRA" title="PRE_MANDATES_EXTRA :: Extra pre-mandates"><span class="description">Extra pre-mandates</span><pre>PRE_MANDATES_EXTRA</pre></a></li>
+<li class="constant  "><a href="#constant_REMAINDER_ROUND" title="REMAINDER_ROUND :: Remainder round to"><span class="description">Remainder round to</span><pre>REMAINDER_ROUND</pre></a></li>
+<li class="constant  "><a href="#constant_VOTES" title="VOTES :: Votes offset"><span class="description">Votes offset</span><pre>VOTES</pre></a></li>
+<li class="constant  "><a href="#constant_VOTE_BAREER" title="VOTE_BAREER :: Vote barreer"><span class="description">Vote barreer</span><pre>VOTE_BAREER</pre></a></li>
+<li class="constant  "><a href="#constant_VOTE_FILENAME" title="VOTE_FILENAME :: Votes filename"><span class="description">Votes filename</span><pre>VOTE_FILENAME</pre></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8">
+<a id="\Pe2013\Pe"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/Pe2013.html">Pe2013</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/Pe2013.Pe.html">Pe</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">Elections 2013 mandate calculation class</p>
+<div class="details">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>category</th>
+<td>Government</td>
+</tr>
+<tr>
+<th>package</th>
+<td><a href="../packages/pe2013.html">pe2013</a></td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="mailto:aquilax@gmail.com">Evgeniy Vasilev</a></td>
+</tr>
+<tr>
+<th>license</th>
+<td><a href="http://www.opensource.org/licenses/mit-license.html">MIT License</a></td>
+</tr>
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+<tr>
+<th>link</th>
+<td><a href="https://github.com/aquilax/pe2013">https://github.com/aquilax/pe2013</a></td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_start"></a><div class="element clickable method public method_start" data-toggle="collapse" data-target=".method_start .collapse">
+<h2>Starts the whole calculation process</h2>
+<pre>start(string $path, string $result_filename) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$path</h4>
+<code>string</code><p>Input data path</p></div>
+<div class="subelement argument">
+<h4>$result_filename</h4>
+<code>string</code><p>Output file name</p></div>
+</div></div>
+</div>
+<a id="method_addNum"></a><div class="element clickable method private method_addNum" data-toggle="collapse" data-target=".method_addNum .collapse">
+<h2>Add number to array key helper function</h2>
+<pre>addNum(array $array, mixed $id, integer $num) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$array</h4>
+<code>array</code><p>Array</p></div>
+<div class="subelement argument">
+<h4>$id</h4>
+<code>mixed</code><p>Key</p></div>
+<div class="subelement argument">
+<h4>$num</h4>
+<code>integer</code><p>Number to add</p></div>
+</div></div>
+</div>
+<a id="method_candidateProcessor"></a><div class="element clickable method private method_candidateProcessor" data-toggle="collapse" data-target=".method_candidateProcessor .collapse">
+<h2>Processes the Candidates file</h2>
+<pre>candidateProcessor(array $data) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$data</h4>
+<code>array</code><p>Input row of data</p></div>
+</div></div>
+</div>
+<a id="method_checkSolution"></a><div class="element clickable method private method_checkSolution" data-toggle="collapse" data-target=".method_checkSolution .collapse">
+<h2>Check if the current solution is correct</h2>
+<pre>checkSolution() : boolean</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>boolean</code>True if solution is correct</div>
+</div></div>
+</div>
+<a id="method_cikSort"></a><div class="element clickable method private method_cikSort" data-toggle="collapse" data-target=".method_cikSort .collapse">
+<h2>Sort helper function</h2>
+<pre>cikSort(array $a, array $b) : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$a</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$b</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>int</code>Compare result</div>
+</div></div>
+</div>
+<a id="method_generateHareTable"></a><div class="element clickable method private method_generateHareTable" data-toggle="collapse" data-target=".method_generateHareTable .collapse">
+<h2>Generates Hare's table</h2>
+<pre>generateHareTable() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_getBucket"></a><div class="element clickable method private method_getBucket" data-toggle="collapse" data-target=".method_getBucket .collapse">
+<h2>Returns the proper data bucket for candidate (party or inie)</h2>
+<pre>getBucket(integer $candidate_id) : \Pe2013\arrray</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$candidate_id</h4>
+<code>integer</code><p>Candidate ID</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>\Pe2013\arrray</code>data bucket</div>
+</div></div>
+</div>
+<a id="method_getElements"></a><div class="element clickable method private method_getElements" data-toggle="collapse" data-target=".method_getElements .collapse">
+<h2>Get $total properly sorted elements from array</h2>
+<pre>getElements(array $arr, array $lot, integer $total) : mixed</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code><p>Parties and coeficients</p></div>
+<div class="subelement argument">
+<h4>$lot</h4>
+<code>array</code><p>Lot</p></div>
+<div class="subelement argument">
+<h4>$total</h4>
+<code>integer</code><p>Total keys to return</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>mixed</code>False if lot is required but empty, otherwise array</div>
+</div></div>
+</div>
+<a id="method_getMaxRemainderForMir"></a><div class="element clickable method private method_getMaxRemainderForMir" data-toggle="collapse" data-target=".method_getMaxRemainderForMir .collapse">
+<h2>Returns the maximum remainder for MIR</h2>
+<pre>getMaxRemainderForMir(integer $mir_id) : float</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$mir_id</h4>
+<code>integer</code><p>Mir ID</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>float</code>The maximum remainder</div>
+</div></div>
+</div>
+<a id="method_getMirTotalVotes"></a><div class="element clickable method private method_getMirTotalVotes" data-toggle="collapse" data-target=".method_getMirTotalVotes .collapse">
+<h2>Returns the total votes for MIR</h2>
+<pre>getMirTotalVotes(integer $mir_id) : integer</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$mir_id</h4>
+<code>integer</code><p>Mir ID</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>integer</code></div>
+</div></div>
+</div>
+<a id="method_loadData"></a><div class="element clickable method private method_loadData" data-toggle="collapse" data-target=".method_loadData .collapse">
+<h2>Load input files</h2>
+<pre>loadData(string $path) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$path</h4>
+<code>string</code><p>Input data path</p></div>
+</div></div>
+</div>
+<a id="method_loader"></a><div class="element clickable method private method_loader" data-toggle="collapse" data-target=".method_loader .collapse">
+<h2>Common CSV File loadre</h2>
+<pre>loader(\Pe2013\strint $filename, string $processor, boolean $mandatory) : boolean</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$filename</h4>
+<code>\Pe2013\strint</code><p>Input filename</p></div>
+<div class="subelement argument">
+<h4>$processor</h4>
+<code>string</code><p>Filename processor</p></div>
+<div class="subelement argument">
+<h4>$mandatory</h4>
+<code>boolean</code><p>Is the file mandatory</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>boolean</code>True if file exists</div>
+</div></div>
+</div>
+<a id="method_lotProcessor"></a><div class="element clickable method private method_lotProcessor" data-toggle="collapse" data-target=".method_lotProcessor .collapse">
+<h2>Processes the Lot file</h2>
+<pre>lotProcessor(array $data) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$data</h4>
+<code>array</code><p>Input row of data</p></div>
+</div></div>
+</div>
+<a id="method_mirProcessor"></a><div class="element clickable method private method_mirProcessor" data-toggle="collapse" data-target=".method_mirProcessor .collapse">
+<h2>Processes the Mir file</h2>
+<pre>mirProcessor(array $data) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$data</h4>
+<code>array</code><p>Input row of data</p></div>
+</div></div>
+</div>
+<a id="method_partyProcessor"></a><div class="element clickable method private method_partyProcessor" data-toggle="collapse" data-target=".method_partyProcessor .collapse">
+<h2>Processes the Parties file</h2>
+<pre>partyProcessor(array $data) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$data</h4>
+<code>array</code><p>Input row of data</p></div>
+</div></div>
+</div>
+<a id="method_populateResults"></a><div class="element clickable method private method_populateResults" data-toggle="collapse" data-target=".method_populateResults .collapse">
+<h2>Populates the result array with parties mandates</h2>
+<pre>populateResults() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_processData"></a><div class="element clickable method private method_processData" data-toggle="collapse" data-target=".method_processData .collapse">
+<h2>Main data crunching function</h2>
+<pre>processData() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_processIndependentCandidates"></a><div class="element clickable method private method_processIndependentCandidates" data-toggle="collapse" data-target=".method_processIndependentCandidates .collapse">
+<h2>Process Independent candidates</h2>
+<pre>processIndependentCandidates() : boolean</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>boolean</code>True if there are independent cancidates</div>
+</div></div>
+</div>
+<a id="method_processPartyProportionalMandates"></a><div class="element clickable method private method_processPartyProportionalMandates" data-toggle="collapse" data-target=".method_processPartyProportionalMandates .collapse">
+<h2>Calculates the proprtional mandates for parties</h2>
+<pre>processPartyProportionalMandates(float $quota) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$quota</h4>
+<code>float</code><p>Hare's quota</p>
+</div>
+</div></div>
+</div>
+<a id="method_rearrangeMandates"></a><div class="element clickable method private method_rearrangeMandates" data-toggle="collapse" data-target=".method_rearrangeMandates .collapse">
+<h2>Rearranges mandates according to Section 3.3</h2>
+<pre>rearrangeMandates() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_remainder"></a><div class="element clickable method private method_remainder" data-toggle="collapse" data-target=".method_remainder .collapse">
+<h2>Calculate remainder as int</h2>
+<pre>remainder(float $float) : integer</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$float</h4>
+<code>float</code><p>Number</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>integer</code>Remainder</div>
+</div></div>
+</div>
+<a id="method_removePartiesBelowMinVotesLimit"></a><div class="element clickable method private method_removePartiesBelowMinVotesLimit" data-toggle="collapse" data-target=".method_removePartiesBelowMinVotesLimit .collapse">
+<h2>Remove parties with wotes below the VOTE_BAREER</h2>
+<pre>removePartiesBelowMinVotesLimit(integer $min_votes) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$min_votes</h4>
+<code>integer</code><p>Minimum votes required</p></div>
+</div></div>
+</div>
+<a id="method_saveData"></a><div class="element clickable method private method_saveData" data-toggle="collapse" data-target=".method_saveData .collapse">
+<h2>Saves output data</h2>
+<pre>saveData(string $result_filename) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$result_filename</h4>
+<code>string</code><p>Output filename or stdout if empty</p></div>
+</div></div>
+</div>
+<a id="method_voteProcessor"></a><div class="element clickable method private method_voteProcessor" data-toggle="collapse" data-target=".method_voteProcessor .collapse">
+<h2>Processes the Votes file</h2>
+<pre>voteProcessor(array $data) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$data</h4>
+<code>array</code><p>Input row of data</p></div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a id="property_abroad_mir_id"> </a><div class="element clickable property private property_abroad_mir_id" data-toggle="collapse" data-target=".property_abroad_mir_id .collapse">
+<h2></h2>
+<pre>$abroad_mir_id : integer</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_ind_candidates"> </a><div class="element clickable property private property_ind_candidates" data-toggle="collapse" data-target=".property_ind_candidates .collapse">
+<h2></h2>
+<pre>$ind_candidates : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_lot"> </a><div class="element clickable property private property_lot" data-toggle="collapse" data-target=".property_lot .collapse">
+<h2></h2>
+<pre>$lot : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_mir_total_votes"> </a><div class="element clickable property private property_mir_total_votes" data-toggle="collapse" data-target=".property_mir_total_votes .collapse">
+<h2></h2>
+<pre>$mir_total_votes : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_mirs"> </a><div class="element clickable property private property_mirs" data-toggle="collapse" data-target=".property_mirs .collapse">
+<h2></h2>
+<pre>$mirs </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_parties"> </a><div class="element clickable property private property_parties" data-toggle="collapse" data-target=".property_parties .collapse">
+<h2></h2>
+<pre>$parties : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_parties_with_extra_mandates"> </a><div class="element clickable property private property_parties_with_extra_mandates" data-toggle="collapse" data-target=".property_parties_with_extra_mandates .collapse">
+<h2></h2>
+<pre>$parties_with_extra_mandates : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_party_list"> </a><div class="element clickable property private property_party_list" data-toggle="collapse" data-target=".property_party_list .collapse">
+<h2></h2>
+<pre>$party_list : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_party_votes"> </a><div class="element clickable property private property_party_votes" data-toggle="collapse" data-target=".property_party_votes .collapse">
+<h2></h2>
+<pre>$party_votes : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_proportional_mandates"> </a><div class="element clickable property private property_proportional_mandates" data-toggle="collapse" data-target=".property_proportional_mandates .collapse">
+<h2></h2>
+<pre>$proportional_mandates : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_results"> </a><div class="element clickable property private property_results" data-toggle="collapse" data-target=".property_results .collapse">
+<h2></h2>
+<pre>$results : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_total_mandates"> </a><div class="element clickable property private property_total_mandates" data-toggle="collapse" data-target=".property_total_mandates .collapse">
+<h2></h2>
+<pre>$total_mandates : integer</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_total_votes"> </a><div class="element clickable property private property_total_votes" data-toggle="collapse" data-target=".property_total_votes .collapse">
+<h2></h2>
+<pre>$total_votes : integer</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<h3>
+<i class="icon-custom icon-constant"></i> Constants</h3>
+<a id="constant_CANDIDATE_FILENAME"> </a><div class="element clickable constant  constant_CANDIDATE_FILENAME" data-toggle="collapse" data-target=".constant_CANDIDATE_FILENAME .collapse">
+<h2>Candidates filename</h2>
+<pre>CANDIDATE_FILENAME </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_ERROR_FILE_LOAD"> </a><div class="element clickable constant  constant_ERROR_FILE_LOAD" data-toggle="collapse" data-target=".constant_ERROR_FILE_LOAD .collapse">
+<h2>File load error</h2>
+<pre>ERROR_FILE_LOAD </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_ERROR_LOT_1"> </a><div class="element clickable constant  constant_ERROR_LOT_1" data-toggle="collapse" data-target=".constant_ERROR_LOT_1 .collapse">
+<h2>No lot error (proportional)</h2>
+<pre>ERROR_LOT_1 </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_ERROR_LOT_2"> </a><div class="element clickable constant  constant_ERROR_LOT_2" data-toggle="collapse" data-target=".constant_ERROR_LOT_2 .collapse">
+<h2>No lot error (MIR)</h2>
+<pre>ERROR_LOT_2 </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_ERROR_WRONG_DATA"> </a><div class="element clickable constant  constant_ERROR_WRONG_DATA" data-toggle="collapse" data-target=".constant_ERROR_WRONG_DATA .collapse">
+<h2>Wrong data error</h2>
+<pre>ERROR_WRONG_DATA </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_HARE_REMAINDER"> </a><div class="element clickable constant  constant_HARE_REMAINDER" data-toggle="collapse" data-target=".constant_HARE_REMAINDER .collapse">
+<h2>Hare remainders</h2>
+<pre>HARE_REMAINDER </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_LOT_FILENAME"> </a><div class="element clickable constant  constant_LOT_FILENAME" data-toggle="collapse" data-target=".constant_LOT_FILENAME .collapse">
+<h2>Lot filename</h2>
+<pre>LOT_FILENAME </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_MIR_FILENAME"> </a><div class="element clickable constant  constant_MIR_FILENAME" data-toggle="collapse" data-target=".constant_MIR_FILENAME .collapse">
+<h2>Mirs filename</h2>
+<pre>MIR_FILENAME </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_PARTIES_FILENAME"> </a><div class="element clickable constant  constant_PARTIES_FILENAME" data-toggle="collapse" data-target=".constant_PARTIES_FILENAME .collapse">
+<h2>Parties filename</h2>
+<pre>PARTIES_FILENAME </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_PRE_MANDATES_BASE"> </a><div class="element clickable constant  constant_PRE_MANDATES_BASE" data-toggle="collapse" data-target=".constant_PRE_MANDATES_BASE .collapse">
+<h2>Base pre-mandates</h2>
+<pre>PRE_MANDATES_BASE </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_PRE_MANDATES_EXTRA"> </a><div class="element clickable constant  constant_PRE_MANDATES_EXTRA" data-toggle="collapse" data-target=".constant_PRE_MANDATES_EXTRA .collapse">
+<h2>Extra pre-mandates</h2>
+<pre>PRE_MANDATES_EXTRA </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_REMAINDER_ROUND"> </a><div class="element clickable constant  constant_REMAINDER_ROUND" data-toggle="collapse" data-target=".constant_REMAINDER_ROUND .collapse">
+<h2>Remainder round to</h2>
+<pre>REMAINDER_ROUND </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_VOTES"> </a><div class="element clickable constant  constant_VOTES" data-toggle="collapse" data-target=".constant_VOTES .collapse">
+<h2>Votes offset</h2>
+<pre>VOTES </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_VOTE_BAREER"> </a><div class="element clickable constant  constant_VOTE_BAREER" data-toggle="collapse" data-target=".constant_VOTE_BAREER .collapse">
+<h2>Vote barreer</h2>
+<pre>VOTE_BAREER </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="constant_VOTE_FILENAME"> </a><div class="element clickable constant  constant_VOTE_FILENAME" data-toggle="collapse" data-target=".constant_VOTE_FILENAME .collapse">
+<h2>Votes filename</h2>
+<pre>VOTE_FILENAME </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-05-10T09:27:22+03:00.<br></footer></div>
+</div>
+</body>
+</html>

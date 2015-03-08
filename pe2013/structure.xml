@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a12" title="pe2013">
+  <file path="pe.php" hash="a0fe34cf067172f02d16780721883bfd" package="pe2013">
+    <docblock line="3">
+      <description>Elections 2013 mandate calculation unit</description>
+      <long-description>&lt;p&gt;PHP Version 5&lt;/p&gt;</long-description>
+      <tag line="3" name="category" description="Government"/>
+      <tag line="3" name="package" description="pe2013"/>
+      <tag line="3" name="author" description="Evgeniy Vasilev &lt;aquilax@gmail.com&gt;"/>
+      <tag line="3" name="license" description="http://www.opensource.org/licenses/mit-license.html  MIT License"/>
+      <tag line="3" name="version" description="1.0"/>
+      <tag line="3" name="link" description="https://github.com/aquilax/pe2013" link="https://github.com/aquilax/pe2013"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Pe2013" line="28" package="pe2013">
+      <extends/>
+      <name>Pe</name>
+      <full_name>\Pe2013\Pe</full_name>
+      <docblock line="18">
+        <description>Elections 2013 mandate calculation class</description>
+        <long-description></long-description>
+        <tag line="18" name="category" description="Government"/>
+        <tag line="18" name="package" description="pe2013"/>
+        <tag line="18" name="author" description="Evgeniy Vasilev &lt;aquilax@gmail.com&gt;"/>
+        <tag line="18" name="license" description="http://www.opensource.org/licenses/mit-license.html  MIT License"/>
+        <tag line="18" name="version" description="1.0"/>
+        <tag line="18" name="link" description="https://github.com/aquilax/pe2013" link="https://github.com/aquilax/pe2013"/>
+      </docblock>
+      <constant namespace="Pe2013" line="32" package="pe2013">
+        <name>ERROR_FILE_LOAD</name>
+        <full_name>ERROR_FILE_LOAD</full_name>
+        <value>4</value>
+        <docblock line="29">
+          <description>File load error</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="37" package="pe2013">
+        <name>ERROR_WRONG_DATA</name>
+        <full_name>ERROR_WRONG_DATA</full_name>
+        <value>5</value>
+        <docblock line="34">
+          <description>Wrong data error</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="42" package="pe2013">
+        <name>ERROR_LOT_1</name>
+        <full_name>ERROR_LOT_1</full_name>
+        <value>6</value>
+        <docblock line="39">
+          <description>No lot error (proportional)</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="47" package="pe2013">
+        <name>ERROR_LOT_2</name>
+        <full_name>ERROR_LOT_2</full_name>
+        <value>7</value>
+        <docblock line="44">
+          <description>No lot error (MIR)</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="52" package="pe2013">
+        <name>MIR_FILENAME</name>
+        <full_name>MIR_FILENAME</full_name>
+        <value>"MIRs.txt"</value>
+        <docblock line="49">
+          <description>Mirs filename</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="57" package="pe2013">
+        <name>PARTIES_FILENAME</name>
+        <full_name>PARTIES_FILENAME</full_name>
+        <value>"Parties.txt"</value>
+        <docblock line="54">
+          <description>Parties filename</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="62" package="pe2013">
+        <name>CANDIDATE_FILENAME</name>
+        <full_name>CANDIDATE_FILENAME</full_name>
+        <value>"Candidates.txt"</value>
+        <docblock line="59">
+          <description>Candidates filename</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="67" package="pe2013">
+        <name>VOTE_FILENAME</name>
+        <full_name>VOTE_FILENAME</full_name>
+        <value>"Votes.txt"</value>
+        <docblock line="64">
+          <description>Votes filename</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="72" package="pe2013">
+        <name>LOT_FILENAME</name>
+        <full_name>LOT_FILENAME</full_name>
+        <value>"Lot.txt"</value>
+        <docblock line="69">
+          <description>Lot filename</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="77" package="pe2013">
+        <name>VOTE_BAREER</name>
+        <full_name>VOTE_BAREER</full_name>
+        <value>0.04</value>
+        <docblock line="74">
+          <description>Vote barreer</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="82" package="pe2013">
+        <name>REMAINDER_ROUND</name>
+        <full_name>REMAINDER_ROUND</full_name>
+        <value>6</value>
+        <docblock line="79">
+          <description>Remainder round to</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="87" package="pe2013">
+        <name>VOTES</name>
+        <full_name>VOTES</full_name>
+        <value>0</value>
+        <docblock line="84">
+          <description>Votes offset</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="92" package="pe2013">
+        <name>PRE_MANDATES_BASE</name>
+        <full_name>PRE_MANDATES_BASE</full_name>
+        <value>1</value>
+        <docblock line="89">
+          <description>Base pre-mandates</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="97" package="pe2013">
+        <name>PRE_MANDATES_EXTRA</name>
+        <full_name>PRE_MANDATES_EXTRA</full_name>
+        <value>2</value>
+        <docblock line="94">
+          <description>Extra pre-mandates</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="Pe2013" line="102" package="pe2013">
+        <name>HARE_REMAINDER</name>
+        <full_name>HARE_REMAINDER</full_name>
+        <value>3</value>
+        <docblock line="99">
+          <description>Hare remainders</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <property final="false" static="false" visibility="private" line="108" namespace="Pe2013" package="Default">
+        <name>$abroad_mir_id</name>
+        <default>0</default>
+        <docblock line="104">
+          <description>Abroad mir id</description>
+          <long-description></long-description>
+          <tag line="104" name="var" description="" type="integer">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="114" namespace="Pe2013" package="Default">
+        <name>$total_mandates</name>
+        <default>0</default>
+        <docblock line="110">
+          <description>Total mandates counter</description>
+          <long-description></long-description>
+          <tag line="110" name="var" description="" type="integer">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="120" namespace="Pe2013" package="Default">
+        <name>$total_votes</name>
+        <default>0</default>
+        <docblock line="116">
+          <description>Total votes counter</description>
+          <long-description></long-description>
+          <tag line="116" name="var" description="" type="integer">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="125" namespace="Pe2013" package="Default">
+        <name>$mirs</name>
+        <default>array()</default>
+        <docblock line="122">
+          <description>Basic data structures</description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="131" namespace="Pe2013" package="Default">
+        <name>$party_list</name>
+        <default>array()</default>
+        <docblock line="127">
+          <description>List of parties</description>
+          <long-description></long-description>
+          <tag line="127" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="137" namespace="Pe2013" package="Default">
+        <name>$parties</name>
+        <default>array()</default>
+        <docblock line="133">
+          <description>Parties structure</description>
+          <long-description></long-description>
+          <tag line="133" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="143" namespace="Pe2013" package="Default">
+        <name>$ind_candidates</name>
+        <default>array()</default>
+        <docblock line="139">
+          <description>Independent candidates</description>
+          <long-description></long-description>
+          <tag line="139" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="149" namespace="Pe2013" package="Default">
+        <name>$lot</name>
+        <default>array()</default>
+        <docblock line="145">
+          <description>Lot</description>
+          <long-description></long-description>
+          <tag line="145" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="159" namespace="Pe2013" package="Default">
+        <name>$proportional_mandates</name>
+        <default>array()</default>
+        <docblock line="155">
+          <description>Proprional mandates list</description>
+          <long-description></long-description>
+          <tag line="155" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="165" namespace="Pe2013" package="Default">
+        <name>$party_votes</name>
+        <default>array()</default>
+        <docblock line="161">
+          <description>Votes per party</description>
+          <long-description></long-description>
+          <tag line="161" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="171" namespace="Pe2013" package="Default">
+        <name>$mir_total_votes</name>
+        <default>array()</default>
+        <docblock line="167">
+          <description>Votes per MIR</description>
+          <long-description></long-description>
+          <tag line="167" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="177" namespace="Pe2013" package="Default">
+        <name>$parties_with_extra_mandates</name>
+        <default>array()</default>
+        <docblock line="173">
+          <description>Parties with extra mandates</description>
+          <long-description></long-description>
+          <tag line="173" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="private" line="183" namespace="Pe2013" package="Default">
+        <name>$results</name>
+        <default>array()</default>
+        <docblock line="179">
+          <description>Vote results</description>
+          <long-description></long-description>
+          <tag line="179" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Pe2013" line="190" package="pe2013">
+        <name>start</name>
+        <full_name>start</full_name>
+        <docblock line="185">
+          <description>Starts the whole calculation process</description>
+          <long-description></long-description>
+          <tag line="185" name="param" description="Input data path" type="string" variable="$path">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="185" name="param" description="Output file name" type="string" variable="$result_filename">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="190">
+          <name>$path</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="190">
+          <name>$result_filename</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="203" package="pe2013">
+        <name>loadData</name>
+        <full_name>loadData</full_name>
+        <docblock line="199">
+          <description>Load input files</description>
+          <long-description></long-description>
+          <tag line="199" name="param" description="Input data path" type="string" variable="$path">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="203">
+          <name>$path</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="219" package="pe2013">
+        <name>loader</name>
+        <full_name>loader</full_name>
+        <docblock line="212">
+          <description>Common CSV File loadre</description>
+          <long-description></long-description>
+          <tag line="212" name="param" description="Input filename" type="\Pe2013\strint" variable="$filename">
+            <type by_reference="false">\Pe2013\strint</type>
+          </tag>
+          <tag line="212" name="param" description="Filename processor" type="string" variable="$processor">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="212" name="param" description="Is the file mandatory" type="boolean" variable="$mandatory">
+            <type by_reference="false">boolean</type>
+          </tag>
+          <tag line="212" name="return" description="True if file exists" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+        </docblock>
+        <argument line="219">
+          <name>$filename</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="219">
+          <name>$processor</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="219">
+          <name>$mandatory</name>
+          <default>TRUE</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="241" package="pe2013">
+        <name>mirProcessor</name>
+        <full_name>mirProcessor</full_name>
+        <docblock line="237">
+          <description>Processes the Mir file</description>
+          <long-description></long-description>
+          <tag line="237" name="param" description="Input row of data" type="array" variable="$data">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="241">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="255" package="pe2013">
+        <name>partyProcessor</name>
+        <full_name>partyProcessor</full_name>
+        <docblock line="251">
+          <description>Processes the Parties file</description>
+          <long-description></long-description>
+          <tag line="251" name="param" description="Input row of data" type="array" variable="$data">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="255">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="265" package="pe2013">
+        <name>getBucket</name>
+        <full_name>getBucket</full_name>
+        <docblock line="260">
+          <description>Returns the proper data bucket for candidate (party or inie)</description>
+          <long-description></long-description>
+          <tag line="260" name="param" description="Candidate ID" type="integer" variable="$candidate_id">
+            <type by_reference="false">integer</type>
+          </tag>
+          <tag line="260" name="return" description="data bucket" type="\Pe2013\arrray">
+            <type by_reference="false">\Pe2013\arrray</type>
+          </tag>
+        </docblock>
+        <argument line="265">
+          <name>$candidate_id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="276" package="pe2013">
+        <name>candidateProcessor</name>
+        <full_name>candidateProcessor</full_name>
+        <docblock line="272">
+          <description>Processes the Candidates file</description>
+          <long-description></long-description>
+          <tag line="272" name="param" description="Input row of data" type="array" variable="$data">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="276">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="292" package="pe2013">
+        <name>voteProcessor</name>
+        <full_name>voteProcessor</full_name>
+        <docblock line="288">
+          <description>Processes the Votes file</description>
+          <long-description></long-description>
+          <tag line="288" name="param" description="Input row of data" type="array" variable="$data">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="292">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="315" package="pe2013">
+        <name>lotProcessor</name>
+        <full_name>lotProcessor</full_name>
+        <docblock line="311">
+          <description>Processes the Lot file</description>
+          <long-description></long-description>
+          <tag line="311" name="param" description="Input row of data" type="array" variable="$data">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="315">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="326" package="pe2013">
+        <name>addNum</name>
+        <full_name>addNum</full_name>
+        <docblock line="320">
+          <description>Add number to array key helper function</description>
+          <long-description></long-description>
+          <tag line="320" name="param" description="Array" type="array" variable="$array">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="320" name="param" description="Key" type="mixed" variable="$id">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="320" name="param" description="Number to add" type="integer" variable="$num">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+        <argument line="326">
+          <name>$array</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="326">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="326">
+          <name>$num</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="336" package="pe2013">
+        <name>processData</name>
+        <full_name>processData</full_name>
+        <docblock line="333">
+          <description>Main data crunching function</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="358" package="pe2013">
+        <name>processIndependentCandidates</name>
+        <full_name>processIndependentCandidates</full_name>
+        <docblock line="354">
+          <description>Process Independent candidates</description>
+          <long-description></long-description>
+          <tag line="354" name="return" description="True if there are independent cancidates" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="380" package="pe2013">
+        <name>removePartiesBelowMinVotesLimit</name>
+        <full_name>removePartiesBelowMinVotesLimit</full_name>
+        <docblock line="376">
+          <description>Remove parties with wotes below the VOTE_BAREER</description>
+          <long-description></long-description>
+          <tag line="376" name="param" description="Minimum votes required" type="integer" variable="$min_votes">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+        <argument line="380">
+          <name>$min_votes</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="404" package="pe2013">
+        <name>cikSort</name>
+        <full_name>cikSort</full_name>
+        <docblock line="398">
+          <description>Sort helper function</description>
+          <long-description></long-description>
+          <tag line="398" name="param" description="" type="array" variable="$a">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="398" name="param" description="" type="array" variable="$b">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="398" name="return" description="Compare result" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+        <argument line="404">
+          <name>$a</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="404">
+          <name>$b</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="421" package="pe2013">
+        <name>getElements</name>
+        <full_name>getElements</full_name>
+        <docblock line="414">
+          <description>Get $total properly sorted elements from array</description>
+          <long-description></long-description>
+          <tag line="414" name="param" description="Parties and coeficients" type="array" variable="$arr">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="414" name="param" description="Lot" type="array" variable="$lot">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="414" name="param" description="Total keys to return" type="integer" variable="$total">
+            <type by_reference="false">integer</type>
+          </tag>
+          <tag line="414" name="return" description="False if lot is required but empty, otherwise array" type="mixed">
+            <type by_reference="false">mixed</type>
+          </tag>
+        </docblock>
+        <argument line="421">
+          <name>$arr</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="421">
+          <name>$lot</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="421">
+          <name>$total</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="452" package="pe2013">
+        <name>remainder</name>
+        <full_name>remainder</full_name>
+        <docblock line="447">
+          <description>Calculate remainder as int</description>
+          <long-description></long-description>
+          <tag line="447" name="param" description="Number" type="float" variable="$float">
+            <type by_reference="false">float</type>
+          </tag>
+          <tag line="447" name="return" description="Remainder" type="integer">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+        <argument line="452">
+          <name>$float</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="460" package="pe2013">
+        <name>processPartyProportionalMandates</name>
+        <full_name>processPartyProportionalMandates</full_name>
+        <docblock line="456">
+          <description>Calculates the proprtional mandates for parties</description>
+          <long-description></long-description>
+          <tag line="456" name="param" description="Hare's quota" type="float" variable="$quota">
+            <type by_reference="false">float</type>
+          </tag>
+        </docblock>
+        <argument line="460">
+          <name>$quota</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="491" package="pe2013">
+        <name>getMirTotalVotes</name>
+        <full_name>getMirTotalVotes</full_name>
+        <docblock line="486">
+          <description>Returns the total votes for MIR</description>
+          <long-description></long-description>
+          <tag line="486" name="param" description="Mir ID" type="integer" variable="$mir_id">
+            <type by_reference="false">integer</type>
+          </tag>
+          <tag line="486" name="return" description="" type="integer">
+            <type by_reference="false">integer</type>
+          </tag>
+        </docblock>
+        <argument line="491">
+          <name>$mir_id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="502" package="pe2013">
+        <name>generateHareTable</name>
+        <full_name>generateHareTable</full_name>
+        <docblock line="499">
+          <description>Generates Hare's table</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="542" package="pe2013">
+        <name>checkSolution</name>
+        <full_name>checkSolution</full_name>
+        <docblock line="538">
+          <description>Check if the current solution is correct</description>
+          <long-description></long-description>
+          <tag line="538" name="return" description="True if solution is correct" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="569" package="pe2013">
+        <name>rearrangeMandates</name>
+        <full_name>rearrangeMandates</full_name>
+        <docblock line="566">
+          <description>Rearranges mandates according to Section 3.3</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="598" package="pe2013">
+        <name>getMaxRemainderForMir</name>
+        <full_name>getMaxRemainderForMir</full_name>
+        <docblock line="593">
+          <description>Returns the maximum remainder for MIR</description>
+          <long-description></long-description>
+          <tag line="593" name="param" description="Mir ID" type="integer" variable="$mir_id">
+            <type by_reference="false">integer</type>
+          </tag>
+          <tag line="593" name="return" description="The maximum remainder" type="float">
+            <type by_reference="false">float</type>
+          </tag>
+        </docblock>
+        <argument line="598">
+          <name>$mir_id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="613" package="pe2013">
+        <name>populateResults</name>
+        <full_name>populateResults</full_name>
+        <docblock line="610">
+          <description>Populates the result array with parties mandates</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="Pe2013" line="628" package="pe2013">
+        <name>saveData</name>
+        <full_name>saveData</full_name>
+        <docblock line="624">
+          <description>Saves output data</description>
+          <long-description></long-description>
+          <tag line="624" name="param" description="Output filename or stdout if empty" type="string" variable="$result_filename">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="628">
+          <name>$result_filename</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="pe2013" full_name="pe2013"/>
+  <namespace name="Pe2013" full_name="Pe2013"/>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>
