@@ -12,9 +12,6 @@ tags:
 
 This online reservation system is a working demo for my bachelor thesis: "Online system for railway ticket reservations".
 
-Links:
-
-- [Demo](http://bileti.phpfogapp.com/)
 
 ![Front page](/img/thesis_1.png)
 ![Choose Route](/img/thesis_2.png)

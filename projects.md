@@ -70,12 +70,6 @@ title: Projects
     <p>Browser based RPG.</p>
     <p class="tech">Technologies used: <em>PHP, CodeIgniter, XHTML, jQuery, CSS, MySQL</em></p>
   </div>
-
-  <div>
-    <h3><a href="https://github.com/aquilax/hranoprovod-go">Hranoprovod</a></h3>
-    <p>Personal life tracker</p>
-    <p class="tech">Technologies used: <em>Google Go, YAML</em></p>
-  </div>
   
   <div>
     <h3><a href="http://super.igrii.com/">Super Game</a></h3>

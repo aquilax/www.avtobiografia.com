@@ -2,7 +2,6 @@
 layout: cv
 title: CV
 ---
-   
   <table id="cv">
     <tr>
       <th class="h1">European<br />curriculum vitae<br />format</th>
@@ -35,6 +34,27 @@ title: CV
     <tr>
       <th class="h2">Work experience</th>
       <td></td>
+    </tr>
+
+    <tr>
+      <th>Dates (from – to)</th>
+      <td class="b">March 2015 - Current</td>
+    </tr>
+    <tr>
+      <th>Name and address of employer</th>
+      <td><a itemprop="worksFor" href="projects.html#fyndiq-ref">Fyndiq</a>, Stockholm, Sweden</td>
+    </tr>
+    <tr>
+      <th>Type of business or sector</th>
+      <td>E-commerce</td>
+    </tr>
+    <tr>
+      <th>Occupation or position held</th>
+      <td itemprop="jobTitle">Integration developer</td>
+    </tr>
+    <tr>
+      <th>Main activities and responsibilities</th>
+      <td>Developming integration modules for E-commerce CMSes</td>
     </tr>
 
     <tr>

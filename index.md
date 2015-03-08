@@ -5,20 +5,20 @@ title: Avtobiografia
 
 <div id="card">
   <h1>Evgeniy Vasilev</h1>
-  <em>exploring computers since 1995</em>
+  <em>exploring sience and technology since 1995</em>
 </div>
 
-You can check my [CV](/cv.html).
+You can check my [Curriculum vitae](/cv.html).
 
-Some of the places I can be found online are:
+Some of the online spaces I inhabit:
  [About.me](http://about.me/aquilax),
  [GitHub](https://github.com/aquilax),
- [oDesk](https://www.odesk.com/users/~~358191f109ac5b46),
- [LinkedIn](http://bg.linkedin.com/in/aquilax),
- [Google+](https://plus.google.com/103587746021296602888),
+ [LinkedIn](http://linkedin.com/in/aquilax),
+ [Google+](https://plus.google.com/+EvgeniyVasilev),
  [GoodReads](http://www.goodreads.com/user/show/2821810-evgeniy-vasilev),
- [Twitter](http://twitter.com/aquilax) or
- [LastFM](http://www.last.fm/user/aquilax)
+ [Twitter](http://twitter.com/aquilax),
+ [LastFM](http://www.last.fm/user/aquilax),
+ [YouPic](https://youpic.com/photographer/aquilax)
 
 <div id="projects">
   <h2>Latest Projects</h2>
@@ -27,7 +27,7 @@ Some of the places I can be found online are:
       <li><a href="{{ post.url }}">{{ post.title }}</a> - <em>{{ post.date | date_to_string }}</em></li>
     {% endfor %}
   </ul>
-  <p class="ar">List of <a href="/projects.html">all my projects</a>...</p>
+  <p class="ar"><a href="/projects.html">More projects…</a></p>
 </div>
 
 <div class='cloud'>
