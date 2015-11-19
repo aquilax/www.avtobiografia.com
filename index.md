@@ -19,6 +19,8 @@ Some of the online spaces I inhabit:
  [Twitter](http://twitter.com/aquilax),
  [LastFM](http://www.last.fm/user/aquilax),
  [YouPic](https://youpic.com/photographer/aquilax)
+ [WakaTime](https://wakatime.com/@aquilax)
+ [Gyroscope](https://gyrosco.pe/aquilax/)
 
 <div id="projects">
   <h2>Latest Projects</h2>
