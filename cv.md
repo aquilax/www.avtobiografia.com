@@ -38,7 +38,7 @@ title: CV
 
     <tr>
       <th>Dates (from – to)</th>
-      <td class="b">March 2015 - Current</td>
+      <td class="b">March 2015 - August 2016</td>
     </tr>
     <tr>
       <th>Name and address of employer</th>

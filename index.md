@@ -5,12 +5,12 @@ title: Avtobiografia
 
 <div id="card">
   <h1>Evgeniy Vasilev</h1>
-  <em>exploring sience and technology since 1995</em>
+  <em>exploring science and technology since 1995</em>
 </div>
 
 You can check my [Curriculum vitae](/cv.html).
 
-Some of the online spaces I inhabit:
+Some of the online spaces I occupy: 
  [About.me](http://about.me/aquilax),
  [GitHub](https://github.com/aquilax),
  [LinkedIn](http://linkedin.com/in/aquilax),
