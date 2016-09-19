@@ -30,7 +30,7 @@ title: CV
     <tr>
       <th>Current location</th>
       <td itemprop="homeLocation">Poland, Poznań</td>
-    </tr>    
+    </tr>
     <tr>
       <th class="h2">Work experience</th>
       <td></td>
@@ -38,7 +38,49 @@ title: CV
 
     <tr>
       <th>Dates (from – to)</th>
-      <td class="b">March 2015 - August 2016</td>
+      <td class="b">August 2015 - Current</td>
+    </tr>
+    <tr>
+      <th>Name and address of employer</th>
+      <td><a itemprop="worksFor" href="projects.html#netent-ref">Netent</a>, Stockholm, Sweden</td>
+    </tr>
+    <tr>
+      <th>Type of business or sector</th>
+      <td>Gaming</td>
+    </tr>
+    <tr>
+      <th>Occupation or position held</th>
+      <td itemprop="jobTitle">Backend developer</td>
+    </tr>
+    <tr>
+      <th>Main activities and responsibilities</th>
+      <td>Developing support system for the gaming industry.</td>
+    </tr>
+
+    <tr>
+      <th>Dates (from – to)</th>
+      <td class="b">February 2016 - August 2016</td>
+    </tr>
+    <tr>
+      <th>Name and address of employer</th>
+      <td><a itemprop="worksFor" href="projects.html#fyndiq-ref">Fyndiq</a>, Stockholm, Sweden</td>
+    </tr>
+    <tr>
+      <th>Type of business or sector</th>
+      <td>E-commerce</td>
+    </tr>
+    <tr>
+      <th>Occupation or position held</th>
+      <td itemprop="jobTitle">Tech Lead</td>
+    </tr>
+    <tr>
+      <th>Main activities and responsibilities</th>
+      <td>Leading team of four developers</td>
+    </tr>
+
+    <tr>
+      <th>Dates (from – to)</th>
+      <td class="b">March 2015 - February 2016</td>
     </tr>
     <tr>
       <th>Name and address of employer</th>
