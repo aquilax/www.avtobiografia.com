@@ -29,7 +29,7 @@ title: CV
     </tr>
     <tr>
       <th>Current location</th>
-      <td itemprop="homeLocation">Poland, Poznań</td>
+      <td itemprop="homeLocation">Sweden, Stockholm</td>
     </tr>
     <tr>
       <th class="h2">Work experience</th>
