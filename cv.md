@@ -54,7 +54,7 @@ title: CV
     </tr>
     <tr>
       <th>Main activities and responsibilities</th>
-      <td>Developing support system for the gaming industry.</td>
+      <td>Developing supporting systems for the gaming industry.</td>
     </tr>
 
     <tr>
