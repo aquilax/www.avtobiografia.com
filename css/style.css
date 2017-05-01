@@ -15,7 +15,7 @@ a:hover{color: #000}
 a:visited{color: #333}
 .red{color:#ef2929}
 .tech em a{color:silver; text-decoration:none}
-div.bb{margin-left:1em;border-bottom:1px solid silver}    
+div.bb{margin-left:1em;border-bottom:1px solid silver}
 h2{margin:0.8em 0; border-bottom: 2px solid #000}
 li{margin: 0 0 0.4em 0}
 .tag a:hover{color:#333; cursor:pointer;}
@@ -31,3 +31,4 @@ li{margin: 0 0 0.4em 0}
 .author{text-align:right}
 .author a{color:#cecece; text-decoration:none}
 .ar{text-align:right}
+.project-image{max-width: 100%}

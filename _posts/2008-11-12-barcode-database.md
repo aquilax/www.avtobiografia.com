@@ -3,17 +3,18 @@ layout: project
 title: Itemara - barcode database
 category: Personal
 tags:
-- PHP
-- CodeIgniter
-- MySQL
-- PostgreSQL
-- GNU Barcode
+  - PHP
+  - CodeIgniter
+  - MySQL
+  - PostgreSQL
+  - GNU Barcode
+  - AMP
+images:
+  - itemara.bazadanni.com.png
 ---
 
-Itemara is simply barcode database created and maintained by me.
+Itemara is small barcode/product database.
 
 Links:
 
-* [Баркодове Итемара](http://barcode.bazadanni.com)
-
-![Screenshot](/img/itemara.bazadanni.com.png)
+* [Баркодове](http://barcode.bazadanni.com)

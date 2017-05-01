@@ -3,11 +3,11 @@ layout: project
 title: Personal development blog
 category: Personal
 tags:
-- WordPress
-- jekyll
+  - WordPress
+  - jekyll
 ---
 
-I started the development blog to keep track of my projects and experiments. Currently I'm moving the blog to GitHub
+I started the development blog to keep track of my projects and experiments.
 
 Links:
 
