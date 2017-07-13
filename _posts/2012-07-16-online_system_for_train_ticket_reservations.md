@@ -2,12 +2,12 @@
 layout: project
 title: Online system for railway ticket reservations
 category: Personal
-tags: 
+tags:
 - Go
 - PHP
 - MySQL
 - Graph Theory
-- Twitter Bootstrap
+- Bootstrap
 ---
 
 This online reservation system is a working demo for my bachelor thesis: "Online system for railway ticket reservations".

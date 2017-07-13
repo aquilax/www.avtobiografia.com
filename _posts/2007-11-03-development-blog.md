@@ -4,7 +4,7 @@ title: Personal development blog
 category: Personal
 tags:
   - WordPress
-  - jekyll
+  - Jekyll
 ---
 
 I started the development blog to keep track of my projects and experiments.

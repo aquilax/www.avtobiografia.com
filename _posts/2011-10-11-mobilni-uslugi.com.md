@@ -3,7 +3,7 @@ layout: project
 title: Mobile Services Comparison
 category: Personal
 tags:
-- jekyll
+- Jekyll
 - Google Docs API
 ---
 
