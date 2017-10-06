@@ -6,6 +6,8 @@ tags:
 - PHP
 - SQLite
 - jQuery
+images:
+- limonada.png
 ---
 
 Remake of the classical Lemonade Stand game.
@@ -13,5 +15,3 @@ Remake of the classical Lemonade Stand game.
 Links:
 
 * [Лимонадената сергия](http://igrii.com/limonada/)
-
-![Screenshot](/img/limonada.png)

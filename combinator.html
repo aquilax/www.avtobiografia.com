@@ -49,7 +49,7 @@ function combine(){
 	var tc = titles.length-1;
 	var ac = anchors.length-1;
 
-	for (var i = 0; i < urls.length; i++){		
+	for (var i = 0; i < urls.length; i++){
 		text += url(urls[i], titles[rand(tc)], anchors[rand(ac)])+"\n"
 	}
 	id4.value = text;

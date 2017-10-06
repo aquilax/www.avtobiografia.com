@@ -7,16 +7,15 @@ tags:
 - CodeIgniter
 - jQuery
 - MySQL
+images:
+- knigi.igrii.com_1.png
+- knigi.igrii.com_2.png
 ---
 
-En interactiove fiction experment. Never really got tracktion.
+An interactive fiction experiment. Never really got traction.
 
 
 Links:
 
 * [Книги - игри](http://knigi.igrii.com)
-
-![Screenshot 1](/img/knigi.igrii.com_1.png)
-
-![Screenshot 2](/img/knigi.igrii.com_2.png)
 

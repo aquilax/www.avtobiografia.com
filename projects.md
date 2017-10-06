@@ -32,7 +32,7 @@ title: Projects
   </div>
   <div>
     <h3>ERP Modules</h3>
-    <p>Database design and development</p>    
+    <p>Database design and development</p>
     <p class="tech">Technologies used: <em>PHP, CodeIgniter, PostgreSQL, CSS</em></p>
   </div>
 
@@ -57,20 +57,13 @@ title: Projects
     <p class="tech">Technologies used: <em>Delphi, PHP</em></p>
   </div>
 
-  <h2 id="911">Projects in 911.bg</h2>
-  <div>
-    <h3>Build Communicator</h3>
-    <p>Offer validator, classifier and uploader</p>
-    <p class="tech">Technologies used: <em>Delphi</em></p>
-  </div>
-
   <h2>Personal projects</h2>
   <div>
     <h3><a href="https://github.com/aquilax/novigeroi2">New heroes 2</a></h3>
     <p>Browser based RPG.</p>
     <p class="tech">Technologies used: <em>PHP, CodeIgniter, XHTML, jQuery, CSS, MySQL</em></p>
   </div>
-  
+
   <div>
     <h3><a href="http://super.igrii.com/">Super Game</a></h3>
     <p>Bulgarian ZPG (Zero Player Game)</p>
@@ -110,9 +103,4 @@ title: Projects
     <h3><a href="http://novigeroi.com">New heroes</a></h3>
     <p>Dragon Knight clone. Fully rewritten using CodeIgniter. Added multiple languages, map support, multiple maps and other enhancements.</p>
     <p class="tech">Technologies used: <em>PHP, CodeIgniter, XHTML, jQuery, CSS, MySQL</em></p>
-  </div>
-  <div>
-    <h3><a href="http://lichen-lekar.com">General practitioner</a></h3>
-    <p>General practitioners index.</p>
-    <p class="tech">Technologies used: <em>PHP, CodeIgniter, XHTML, Blueprint, CSS, MySQL, Google Maps API, Data Mining</em></p>
   </div>

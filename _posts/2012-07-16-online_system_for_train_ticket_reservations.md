@@ -8,11 +8,10 @@ tags:
 - MySQL
 - Graph Theory
 - Bootstrap
+images:
+- thesis_1.png
+- thesis_2.png
+- thesis_3.png
 ---
 
-This online reservation system is a working demo for my bachelor thesis: "Online system for railway ticket reservations".
-
-
-![Front page](/img/thesis_1.png)
-![Choose Route](/img/thesis_2.png)
-![Route Information](/img/thesis_3.png)
+This on-line reservation system is a working demo for my bachelor thesis: "Online system for railway ticket reservations".

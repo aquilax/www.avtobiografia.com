@@ -2,7 +2,7 @@
 layout: project
 title: Markup translator
 category: Hackaton
-tags: 
+tags:
 - PHP
 - Slim Framework
 - Composer

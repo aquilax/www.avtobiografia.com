@@ -10,7 +10,8 @@ title: Avtobiografia
 
 You can check my [Curriculum vitae](/cv.html).
 
-Some of the online spaces I occupy: 
+More about me also here:
+ [Quantified aquilax](https://quantified.avtobiografia.com/),
  [About.me](http://about.me/aquilax),
  [GitHub](https://github.com/aquilax),
  [LinkedIn](http://linkedin.com/in/aquilax),
@@ -25,7 +26,7 @@ Some of the online spaces I occupy:
 <div id="projects">
   <h2>Latest Projects</h2>
   <ul>
-    {% for post in site.posts limit:10%}
+    {% for post in site.posts limit:20 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> - <em>{{ post.date | date_to_string }}</em></li>
     {% endfor %}
   </ul>

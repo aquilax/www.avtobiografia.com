@@ -5,6 +5,8 @@ category: Games
 tags:
 - JavaScript
 - jQuery
+images:
+- chislitel-mislitel.png
 ---
 
 JS clone of the classic [Number Munchers](http://en.wikipedia.org/wiki/Number_Munchers) educational game
@@ -12,5 +14,3 @@ JS clone of the classic [Number Munchers](http://en.wikipedia.org/wiki/Number_Mu
 Links:
 
 * [Числител - мислител](http://igrii.com/chislitel_mislitel/)
-
-![Screenshot](/img/chislitel-mislitel.png)
