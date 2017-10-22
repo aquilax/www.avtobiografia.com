@@ -5,7 +5,7 @@ title: Avtobiografia
 
 <div id="card">
   <h1>Evgeniy Vasilev</h1>
-  <em>exploring science and technology since 1995</em>
+  <em>fighting entropy since 1980</em>
 </div>
 
 You can check my [Curriculum vitae](/cv.html).
