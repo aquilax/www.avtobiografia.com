@@ -6,6 +6,9 @@ tags:
 - JavaScript
 - Webpack
 - Backbone.js
+images:
+- ab-result-analyse.avtobiografia.com.png
+link: "https://ab-result-analyse.avtobiografia.com/"
 ---
 
 An SPA for analyzing ab (ApacheBench) results.
