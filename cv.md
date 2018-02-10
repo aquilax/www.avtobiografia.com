@@ -2,6 +2,7 @@
 layout: cv
 title: CV
 ---
+
   <table id="cv">
     <tr>
       <th class="h1">European<br />curriculum vitae<br />format</th>
@@ -38,7 +39,28 @@ title: CV
 
     <tr>
       <th>Dates (from – to)</th>
-      <td class="b">August 2015 - Current</td>
+      <td class="b">January 2018 - Current</td>
+    </tr>
+    <tr>
+      <th>Name and address of employer</th>
+      <td><a itemprop="worksFor" href="projects.html#spotify-ref">Spotify</a>, Stockholm, Sweden</td>
+    </tr>
+    <tr>
+      <th>Type of business or sector</th>
+      <td>Music</td>
+    </tr>
+    <tr>
+      <th>Occupation or position held</th>
+      <td itemprop="jobTitle">Software Engineer</td>
+    </tr>
+    <tr>
+      <th>Main activities and responsibilities</th>
+      <td></td>
+    </tr>
+
+    <tr>
+      <th>Dates (from – to)</th>
+      <td class="b">August 2015 - January 2018</td>
     </tr>
     <tr>
       <th>Name and address of employer</th>
