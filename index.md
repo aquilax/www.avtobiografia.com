@@ -11,18 +11,15 @@ title: Avtobiografia
 You can check my [Curriculum vitae](/cv.html).
 
 More about me also here:
- [Quantified aquilax](https://quantified.avtobiografia.com/),
- [About.me](http://about.me/aquilax),
  [GitHub](https://github.com/aquilax),
  [LinkedIn](http://linkedin.com/in/aquilax),
- [Google+](https://plus.google.com/+EvgeniyVasilev),
  [GoodReads](http://www.goodreads.com/user/show/2821810-evgeniy-vasilev),
- [Twitter](http://twitter.com/aquilax),
- [LastFM](http://www.last.fm/user/aquilax),
- [YouPic](https://youpic.com/photographer/aquilax)
  [WakaTime](https://wakatime.com/@aquilax)
+ [LastFM](http://www.last.fm/user/aquilax),
  [Gyroscope](https://gyrosco.pe/aquilax/)
-
+ [About.me](http://about.me/aquilax),
+ [Twitter](http://twitter.com/aquilax),
+ [Quantified aquilax](https://quantified.avtobiografia.com/),
 <div id="projects">
   <h2>Latest Projects</h2>
   <ul>
