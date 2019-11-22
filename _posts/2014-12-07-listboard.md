@@ -1,14 +1,16 @@
 ---
 layout: project
-title: Listboard
+title: "Go based anonymous top list board"
 category: Personal
-tags: 
-- Go
-- sqlite
+license: mit
+tags:
+  - github
+  - Go
 ---
 
-Listboard is web CMS written in GO for creating lists and voting on them
+Go based anonymous top list board
 
-[GitHub](https://github.com/aquilax/listboard)
-[Svoboden pazar listboard](http://list.svoboden-pazar.com/)
-[Stihove](http://stihove.igrii.com/)
+Links:
+
+
+* [aquilax/listboard](https://github.com/aquilax/listboard)

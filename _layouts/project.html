@@ -7,18 +7,10 @@ layout: default
   {{ page.title }}
 </nav>
 
-<h2>{{ page.title }} <g:plusone size="small" annotation="none"></g:plusone></h2>
+<h2>{{ page.title }}</h2>
 {% if page.tags != empty %}<p class="tech">Technologies used: <em>{% for tag in page.tags %} <span class="tag" rel="tag"><a href="/tag/{{ tag }}">{{ tag }}</a></span> {% endfor %}</em></p>{% endif %}
 
 {% if page.images != empty%}{% for image in page.images %}<img class="project-image" src="/img/{{ image }}">{% endfor %}{% endif %}
 <div class="project">
 {{ content }}
 </div>
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-<p class="author"><a href="https://plus.google.com/103587746021296602888?rel=author">aquilax+</a></p>

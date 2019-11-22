@@ -6,14 +6,19 @@ foreach($repos as $repo) {
   if ($repo['fork'] || $repo['archived'] || $repo['private']) {
     continue;
   }
+  $license = $repo['license'] ? $repo['license']['key'] : "Unknown";
   $homepage = $repo['homepage'] ? "* [HomePage]({$repo['homepage']})" : "";
+  $language = $repo['language'] ? "- {$repo['language']}" : "";
+  $name = $repo['description'] ? addcslashes($repo['description'], '"') : $repo['name'];
   $template = <<<EOT
 ---
 layout: project
-title: "{$repo['name']}"
+title: "{$name}"
 category: Personal
+license: {$license}
 tags:
   - github
+  {$language}
 ---
 
 {$repo['description']}
@@ -21,12 +26,10 @@ tags:
 Links:
 
 {$homepage}
-* [{$repo['full_name']}]({$repo['url']})
+* [{$repo['full_name']}]({$repo['html_url']})
 
 EOT;
-  $file_name = date('Y-m-d', strtotime($repo['created_at'])) . '-' .$repo['name'] . '.md';
-  print $file_name;
-  print PHP_EOL;
-  print $template;
-  print PHP_EOL;
+  $fileName = date('Y-m-d', strtotime($repo['created_at'])) . '-' .$repo['name'] . '.md';
+  file_put_contents(__DIR__ . '/../_posts/' . $fileName, $template);
+
 }
