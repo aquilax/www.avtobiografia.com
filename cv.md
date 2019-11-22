@@ -118,7 +118,7 @@ title: CV
     </tr>
     <tr>
       <th>Main activities and responsibilities</th>
-      <td>Developming integration modules for E-commerce CMSes</td>
+      <td>Developing integration modules for E-commerce CMS-es</td>
     </tr>
 
     <tr>
@@ -162,8 +162,6 @@ title: CV
       <th>Main activities and responsibilities</th>
       <td>PHP development. Coffeescript development</td>
     </tr>
-
-
     <tr>
       <th>Dates (from – to)</th>
       <td class="b">October 2012 - February 2013</td>

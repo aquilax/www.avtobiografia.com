@@ -2,12 +2,12 @@
 layout: project
 title: Hranoprovod
 category: Personal
-tags: 
+tags:
 - Go
 - Yaml
 ---
 
-Hranoprovod is command line tracking tool. It supports nested recipies and custom defined tracking elements, which makes it perfect for tracking calories, nutionin data, excercises and other accumulative data.
+Hranoprovod is command line tracking tool. It supports nested recipes and custom defined tracking elements, which makes it perfect for tracking calories, nutrition data, exercise and other accumulative data.
 
 Links:
 [Current version on Github](https://github.com/Hranoprovod/hranoprovod-cli)
