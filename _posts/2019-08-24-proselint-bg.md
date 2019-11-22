@@ -12,5 +12,4 @@ Bulgarian prose linter
 
 Links:
 
-
 * [aquilax/proselint-bg](https://github.com/aquilax/proselint-bg)

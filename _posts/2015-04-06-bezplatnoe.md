@@ -8,9 +8,6 @@ tags:
   - Python
 ---
 
-
-
 Links:
-
 
 * [aquilax/bezplatnoe](https://github.com/aquilax/bezplatnoe)

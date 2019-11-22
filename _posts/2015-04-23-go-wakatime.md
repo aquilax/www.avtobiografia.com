@@ -12,5 +12,4 @@ Go library for accessing WakaTime API
 
 Links:
 
-
 * [aquilax/go-wakatime](https://github.com/aquilax/go-wakatime)

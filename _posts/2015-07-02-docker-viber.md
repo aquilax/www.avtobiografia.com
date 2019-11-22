@@ -12,5 +12,4 @@ Run Viber inside docker container
 
 Links:
 
-
 * [aquilax/docker-viber](https://github.com/aquilax/docker-viber)

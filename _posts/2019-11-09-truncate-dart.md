@@ -12,5 +12,4 @@ String truncation library supporting multiple predefined and custom truncation s
 
 Links:
 
-
 * [aquilax/truncate-dart](https://github.com/aquilax/truncate-dart)

@@ -12,5 +12,4 @@ Library for generating Magento modules
 
 Links:
 
-
 * [aquilax/magento-package-generator](https://github.com/aquilax/magento-package-generator)

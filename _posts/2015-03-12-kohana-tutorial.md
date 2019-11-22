@@ -12,5 +12,4 @@ Automatically exported from code.google.com/p/kohana-tutorial
 
 Links:
 
-
 * [aquilax/kohana-tutorial](https://github.com/aquilax/kohana-tutorial)

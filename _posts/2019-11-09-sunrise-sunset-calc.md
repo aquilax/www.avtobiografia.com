@@ -12,5 +12,4 @@ Sunrise/sunset calculation Dart library
 
 Links:
 
-
 * [aquilax/sunrise-sunset-calc](https://github.com/aquilax/sunrise-sunset-calc)

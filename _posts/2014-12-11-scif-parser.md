@@ -12,5 +12,4 @@ Golang parser for scif-style markup
 
 Links:
 
-
 * [aquilax/scif-parser](https://github.com/aquilax/scif-parser)

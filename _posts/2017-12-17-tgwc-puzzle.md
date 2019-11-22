@@ -12,5 +12,4 @@ Great Wall of China Puzzle generator
 
 Links:
 
-
 * [aquilax/tgwc-puzzle](https://github.com/aquilax/tgwc-puzzle)

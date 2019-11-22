@@ -12,5 +12,4 @@ Test the releases API
 
 Links:
 
-
 * [aquilax/release-test](https://github.com/aquilax/release-test)

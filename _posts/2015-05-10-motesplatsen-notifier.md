@@ -12,5 +12,4 @@ Chrome notifications for www.motesplatsen.se
 
 Links:
 
-
 * [aquilax/motesplatsen-notifier](https://github.com/aquilax/motesplatsen-notifier)

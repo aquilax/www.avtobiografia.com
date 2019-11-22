@@ -8,9 +8,6 @@ tags:
   - PHP
 ---
 
-
-
 Links:
-
 
 * [aquilax/lyrics-benchmark](https://github.com/aquilax/lyrics-benchmark)

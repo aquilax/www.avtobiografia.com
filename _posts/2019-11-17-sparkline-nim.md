@@ -12,5 +12,4 @@ Sparkline library
 
 Links:
 
-
 * [aquilax/sparkline-nim](https://github.com/aquilax/sparkline-nim)

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "grafana-ledger-data-source-server"
+title: "Grafana server for ledger data written in Go"
 category: Personal
 license: mit
 tags:
@@ -8,9 +8,10 @@ tags:
   - Go
 ---
 
+Grafana server for ledger data written in Go
 
+![grafana-ledger-data-source-server](/img/grafana-ledger-data-source-server.png)
 
 Links:
-
 
 * [aquilax/grafana-ledger-data-source-server](https://github.com/aquilax/grafana-ledger-data-source-server)

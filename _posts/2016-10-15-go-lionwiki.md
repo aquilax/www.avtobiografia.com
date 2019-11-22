@@ -12,5 +12,4 @@ Go implementation of LionWiki
 
 Links:
 
-
 * [aquilax/go-lionwiki](https://github.com/aquilax/go-lionwiki)

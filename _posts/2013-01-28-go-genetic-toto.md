@@ -12,5 +12,4 @@ Genetic lottery numbers selector
 
 Links:
 
-
 * [aquilax/go-genetic-toto](https://github.com/aquilax/go-genetic-toto)

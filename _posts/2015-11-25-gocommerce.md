@@ -12,5 +12,4 @@ Go library for accessing popular e-commerce platforms
 
 Links:
 
-
 * [aquilax/gocommerce](https://github.com/aquilax/gocommerce)

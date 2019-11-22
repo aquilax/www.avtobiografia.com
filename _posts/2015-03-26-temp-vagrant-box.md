@@ -8,9 +8,6 @@ tags:
   - Shell
 ---
 
-
-
 Links:
-
 
 * [aquilax/temp-vagrant-box](https://github.com/aquilax/temp-vagrant-box)

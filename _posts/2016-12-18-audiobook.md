@@ -12,5 +12,4 @@ Simple Audiobook manager
 
 Links:
 
-
 * [aquilax/audiobook](https://github.com/aquilax/audiobook)

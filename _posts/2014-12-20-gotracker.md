@@ -12,5 +12,4 @@ Golang torrent tracker based on peertracker
 
 Links:
 
-
 * [aquilax/gotracker](https://github.com/aquilax/gotracker)

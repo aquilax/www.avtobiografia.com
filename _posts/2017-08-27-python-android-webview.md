@@ -12,5 +12,4 @@ Simple WebView Android App Tool
 
 Links:
 
-
 * [aquilax/python-android-webview](https://github.com/aquilax/python-android-webview)

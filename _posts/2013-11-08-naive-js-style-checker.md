@@ -8,9 +8,6 @@ tags:
   - PHP
 ---
 
-
-
 Links:
-
 
 * [aquilax/naive-js-style-checker](https://github.com/aquilax/naive-js-style-checker)

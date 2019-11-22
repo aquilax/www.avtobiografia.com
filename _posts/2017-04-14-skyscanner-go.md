@@ -12,5 +12,4 @@ SkyScanner API Client
 
 Links:
 
-
 * [aquilax/skyscanner-go](https://github.com/aquilax/skyscanner-go)

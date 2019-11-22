@@ -12,5 +12,4 @@ Generate financial independence report from ledger data
 
 Links:
 
-
 * [aquilax/ledger2fire](https://github.com/aquilax/ledger2fire)

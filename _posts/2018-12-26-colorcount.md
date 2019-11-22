@@ -12,5 +12,4 @@ Command line tool to count colors used in image
 
 Links:
 
-
 * [aquilax/colorcount](https://github.com/aquilax/colorcount)

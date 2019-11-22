@@ -12,5 +12,4 @@ Command line tool for accessing https://dirble.com API
 
 Links:
 
-
 * [aquilax/dirble-cli](https://github.com/aquilax/dirble-cli)

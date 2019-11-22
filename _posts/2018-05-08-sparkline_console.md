@@ -12,5 +12,4 @@ Command line sparkline generator
 
 Links:
 
-
 * [aquilax/sparkline_console](https://github.com/aquilax/sparkline_console)

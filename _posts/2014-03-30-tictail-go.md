@@ -12,5 +12,4 @@ Go library for accessing the Tictail.com API
 
 Links:
 
-
 * [aquilax/tictail-go](https://github.com/aquilax/tictail-go)

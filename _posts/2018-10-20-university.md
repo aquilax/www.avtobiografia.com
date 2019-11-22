@@ -12,5 +12,4 @@ List of universities
 
 Links:
 
-
 * [aquilax/university](https://github.com/aquilax/university)

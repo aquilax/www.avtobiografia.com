@@ -12,5 +12,4 @@ Naive text summarization for Go
 
 Links:
 
-
 * [aquilax/go-summary](https://github.com/aquilax/go-summary)

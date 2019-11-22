@@ -8,9 +8,6 @@ tags:
   - JavaScript
 ---
 
-
-
 Links:
-
 
 * [aquilax/happypancake-notifier](https://github.com/aquilax/happypancake-notifier)

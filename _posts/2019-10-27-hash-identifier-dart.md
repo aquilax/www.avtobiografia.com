@@ -12,5 +12,4 @@ Dart library for identifying different hashes
 
 Links:
 
-
 * [aquilax/hash-identifier-dart](https://github.com/aquilax/hash-identifier-dart)

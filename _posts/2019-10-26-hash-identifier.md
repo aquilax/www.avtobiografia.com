@@ -12,5 +12,4 @@ Go package to identify different hashes
 
 Links:
 
-
 * [aquilax/hash-identifier](https://github.com/aquilax/hash-identifier)

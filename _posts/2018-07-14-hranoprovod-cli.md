@@ -12,5 +12,4 @@ Command line quantified self tool
 
 Links:
 
-
 * [aquilax/hranoprovod-cli](https://github.com/aquilax/hranoprovod-cli)

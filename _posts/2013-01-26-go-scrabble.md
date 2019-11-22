@@ -12,5 +12,4 @@ Scrabble library for Go
 
 Links:
 
-
 * [aquilax/go-scrabble](https://github.com/aquilax/go-scrabble)

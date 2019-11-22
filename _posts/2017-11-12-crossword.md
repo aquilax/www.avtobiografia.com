@@ -12,5 +12,4 @@ Crossword generator for go
 
 Links:
 
-
 * [aquilax/crossword](https://github.com/aquilax/crossword)

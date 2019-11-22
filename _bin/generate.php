@@ -10,6 +10,10 @@ foreach($repos as $repo) {
   $homepage = $repo['homepage'] ? "* [HomePage]({$repo['homepage']})" : "";
   $language = $repo['language'] ? "- {$repo['language']}" : "";
   $name = $repo['description'] ? addcslashes($repo['description'], '"') : $repo['name'];
+  $image = '';
+  if (file_exists(__DIR__ . '/../img/' . $repo['name'] . '.png')) {
+    $image = "![{$repo['name']}](/img/{$repo['name']}.png)";
+  }
   $template = <<<EOT
 ---
 layout: project
@@ -23,6 +27,8 @@ tags:
 
 {$repo['description']}
 
+{$image}
+
 Links:
 
 {$homepage}
@@ -30,6 +36,5 @@ Links:
 
 EOT;
   $fileName = date('Y-m-d', strtotime($repo['created_at'])) . '-' .$repo['name'] . '.md';
-  file_put_contents(__DIR__ . '/../_posts/' . $fileName, $template);
-
+  file_put_contents(__DIR__ . '/../_posts/' . $fileName, preg_replace("/[\r\n]{2,}/", "\n\n", $template));
 }

@@ -12,5 +12,4 @@ Small script to lint ledger files
 
 Links:
 
-
 * [aquilax/ledger-lint](https://github.com/aquilax/ledger-lint)

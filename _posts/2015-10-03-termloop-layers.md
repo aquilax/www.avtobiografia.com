@@ -12,5 +12,4 @@ Layers support for termloop
 
 Links:
 
-
 * [aquilax/termloop-layers](https://github.com/aquilax/termloop-layers)

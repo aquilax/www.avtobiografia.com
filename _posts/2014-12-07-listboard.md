@@ -12,5 +12,4 @@ Go based anonymous top list board
 
 Links:
 
-
 * [aquilax/listboard](https://github.com/aquilax/listboard)

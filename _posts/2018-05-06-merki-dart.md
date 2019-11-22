@@ -12,5 +12,4 @@ Dart implementation of merki
 
 Links:
 
-
 * [aquilax/merki-dart](https://github.com/aquilax/merki-dart)

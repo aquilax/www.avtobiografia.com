@@ -12,5 +12,4 @@ Chrome uptime extension
 
 Links:
 
-
 * [aquilax/uptime-chrome](https://github.com/aquilax/uptime-chrome)

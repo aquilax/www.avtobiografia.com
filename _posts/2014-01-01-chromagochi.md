@@ -12,5 +12,4 @@ Simple POC virtual pet as Chrome extenson
 
 Links:
 
-
 * [aquilax/chromagochi](https://github.com/aquilax/chromagochi)

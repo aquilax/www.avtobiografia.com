@@ -12,5 +12,4 @@ Open directory indexer
 
 Links:
 
-
 * [aquilax/opendirindexer](https://github.com/aquilax/opendirindexer)

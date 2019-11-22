@@ -12,5 +12,4 @@ Config files generator
 
 Links:
 
-
 * [aquilax/config_generator](https://github.com/aquilax/config_generator)
