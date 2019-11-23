@@ -10,6 +10,8 @@ tags:
 
 Common tasks in multiple languages
 
+License: None
+
 Links:
 
 * [HomePage](http://www.avtobiografia.com)

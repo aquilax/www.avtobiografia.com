@@ -10,6 +10,8 @@ tags:
 
 Go implementation of LionWiki
 
+License: MIT License
+
 Links:
 
 * [aquilax/go-lionwiki](https://github.com/aquilax/go-lionwiki)

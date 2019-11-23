@@ -10,6 +10,8 @@ tags:
 
 Chrome uptime extension
 
+License: MIT License
+
 Links:
 
 * [aquilax/uptime-chrome](https://github.com/aquilax/uptime-chrome)

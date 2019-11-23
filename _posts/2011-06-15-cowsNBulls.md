@@ -10,6 +10,8 @@ tags:
 
 Cows 'n bulls single script game
 
+License: None
+
 Links:
 
 * [HomePage](http://internetigri.com/topic95-kravi-i-bikove.html)

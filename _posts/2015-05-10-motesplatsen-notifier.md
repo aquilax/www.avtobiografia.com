@@ -10,6 +10,8 @@ tags:
 
 Chrome notifications for www.motesplatsen.se 
 
+License: MIT License
+
 Links:
 
 * [aquilax/motesplatsen-notifier](https://github.com/aquilax/motesplatsen-notifier)

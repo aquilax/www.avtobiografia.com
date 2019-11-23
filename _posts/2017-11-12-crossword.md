@@ -10,6 +10,8 @@ tags:
 
 Crossword generator for go
 
+License: BSD 2-Clause "Simplified" License
+
 Links:
 
 * [aquilax/crossword](https://github.com/aquilax/crossword)

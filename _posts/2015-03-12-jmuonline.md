@@ -10,6 +10,8 @@ tags:
 
 Automatically exported from code.google.com/p/jmuonline
 
+License: None
+
 Links:
 
 * [aquilax/jmuonline](https://github.com/aquilax/jmuonline)

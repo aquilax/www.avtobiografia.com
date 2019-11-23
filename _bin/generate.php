@@ -7,6 +7,7 @@ foreach($repos as $repo) {
     continue;
   }
   $license = $repo['license'] ? $repo['license']['key'] : "Unknown";
+  $licenseLabel = $repo['license'] ? $repo['license']['name'] : "None";
   $homepage = $repo['homepage'] ? "* [HomePage]({$repo['homepage']})" : "";
   $language = $repo['language'] ? "- {$repo['language']}" : "";
   $name = $repo['description'] ? addcslashes($repo['description'], '"') : $repo['name'];
@@ -28,6 +29,8 @@ tags:
 {$repo['description']}
 
 {$image}
+
+License: {$licenseLabel}
 
 Links:
 

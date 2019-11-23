@@ -8,6 +8,8 @@ tags:
   - Python
 ---
 
+License: None
+
 Links:
 
 * [aquilax/bezplatnoe](https://github.com/aquilax/bezplatnoe)

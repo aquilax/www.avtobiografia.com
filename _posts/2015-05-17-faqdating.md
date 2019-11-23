@@ -10,6 +10,8 @@ tags:
 
 Dating app
 
+License: MIT License
+
 Links:
 
 * [aquilax/faqdating](https://github.com/aquilax/faqdating)

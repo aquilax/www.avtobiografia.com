@@ -5,7 +5,7 @@ title: Avtobiografia
 
 <div id="card">
   <h1>Evgeniy Vasilev</h1>
-  <em>fighting entropy since 1980</em>
+  <em class="bio">fighting entropy since 1980</em>
 </div>
 
 You can check my [Curriculum vitae](/cv.html).
@@ -30,7 +30,7 @@ More about me also here:
   <p class="ar"><a href="/projects.html">More projects…</a></p>
 </div>
 
-<div class='cloud'>
-  <h2>Skills cloud</h2>
-	{% tag_cloud %}
+<h2 id="skills">Skills cloud</h2>
+<div class="cloud">
+	{% tag_cloud font-size: 100 - 200% %}
 </div>

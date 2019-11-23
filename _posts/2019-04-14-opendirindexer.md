@@ -10,6 +10,8 @@ tags:
 
 Open directory indexer
 
+License: MIT License
+
 Links:
 
 * [aquilax/opendirindexer](https://github.com/aquilax/opendirindexer)

@@ -10,6 +10,8 @@ tags:
 
 Command line tool for accessing https://dirble.com API
 
+License: MIT License
+
 Links:
 
 * [aquilax/dirble-cli](https://github.com/aquilax/dirble-cli)

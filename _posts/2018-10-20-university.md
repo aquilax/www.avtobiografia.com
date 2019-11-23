@@ -10,6 +10,8 @@ tags:
 
 List of universities
 
+License: MIT License
+
 Links:
 
 * [aquilax/university](https://github.com/aquilax/university)

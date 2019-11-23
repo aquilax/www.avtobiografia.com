@@ -10,6 +10,8 @@ tags:
 
 Genetic lottery numbers selector
 
+License: None
+
 Links:
 
 * [aquilax/go-genetic-toto](https://github.com/aquilax/go-genetic-toto)

@@ -10,6 +10,8 @@ tags:
 
 Instant Messaging Backup Tool 
 
+License: MIT License
+
 Links:
 
 * [aquilax/imrepository](https://github.com/aquilax/imrepository)

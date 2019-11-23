@@ -10,6 +10,8 @@ tags:
 
 Command line sparkline generator
 
+License: MIT License
+
 Links:
 
 * [aquilax/sparkline_console](https://github.com/aquilax/sparkline_console)

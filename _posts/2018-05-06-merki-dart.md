@@ -10,6 +10,8 @@ tags:
 
 Dart implementation of merki
 
+License: MIT License
+
 Links:
 
 * [aquilax/merki-dart](https://github.com/aquilax/merki-dart)

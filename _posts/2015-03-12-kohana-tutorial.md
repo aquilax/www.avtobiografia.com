@@ -10,6 +10,8 @@ tags:
 
 Automatically exported from code.google.com/p/kohana-tutorial
 
+License: None
+
 Links:
 
 * [aquilax/kohana-tutorial](https://github.com/aquilax/kohana-tutorial)

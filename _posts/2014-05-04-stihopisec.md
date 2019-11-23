@@ -8,6 +8,8 @@ tags:
   - Go
 ---
 
+License: None
+
 Links:
 
 * [aquilax/stihopisec](https://github.com/aquilax/stihopisec)

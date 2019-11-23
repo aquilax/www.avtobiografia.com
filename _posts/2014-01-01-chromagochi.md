@@ -10,6 +10,8 @@ tags:
 
 Simple POC virtual pet as Chrome extenson
 
+License: The Unlicense
+
 Links:
 
 * [aquilax/chromagochi](https://github.com/aquilax/chromagochi)

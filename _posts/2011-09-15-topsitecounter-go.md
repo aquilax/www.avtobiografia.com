@@ -10,6 +10,8 @@ tags:
 
 GO version of topsitecounter
 
+License: None
+
 Links:
 
 * [HomePage](topsitecounter.appspot.com)

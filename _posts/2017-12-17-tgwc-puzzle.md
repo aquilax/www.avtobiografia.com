@@ -10,6 +10,8 @@ tags:
 
 Great Wall of China Puzzle generator
 
+License: MIT License
+
 Links:
 
 * [aquilax/tgwc-puzzle](https://github.com/aquilax/tgwc-puzzle)

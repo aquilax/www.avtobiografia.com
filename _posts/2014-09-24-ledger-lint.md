@@ -10,6 +10,8 @@ tags:
 
 Small script to lint ledger files
 
+License: None
+
 Links:
 
 * [aquilax/ledger-lint](https://github.com/aquilax/ledger-lint)

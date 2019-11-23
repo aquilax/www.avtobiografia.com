@@ -10,6 +10,8 @@ tags:
 
 Go library for accessing the Tictail.com API
 
+License: None
+
 Links:
 
 * [aquilax/tictail-go](https://github.com/aquilax/tictail-go)

@@ -10,6 +10,8 @@ tags:
 
 Command line nutrition tracker
 
+License: None
+
 Links:
 
 * [HomePage](http://hranenedieta.com)

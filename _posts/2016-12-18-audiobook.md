@@ -10,6 +10,8 @@ tags:
 
 Simple Audiobook manager
 
+License: MIT License
+
 Links:
 
 * [aquilax/audiobook](https://github.com/aquilax/audiobook)

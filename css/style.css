@@ -1,15 +1,18 @@
 html, body{margin:0; padding:0}
 body{font-family:Arial, Sans; font-size:1em; background-color: #f7f7f7;}
 #wrapper{max-width:640px;margin:0 auto; color:#333; background: #fff;}
-#iw{margin: 0 2em; padding: 0 0 2em 0}
+#iw{margin: 0 2em; padding: 0 0 2em 0;}
 .one-edge-shadow {
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
 }
 header h1{text-align:center; margin:0; border-bottom: 6px solid #333; padding: .4em 0 0; overflow: hidden}
-header h1 a{color: #333; font-size: 50pt; font-size:3.5vw; text-transform: uppercase; text-decoration:none}
-nav{margin: 1em 0 4em 0}
+header h1 a{color: #333; text-transform: uppercase; text-decoration:none; font-size: 10vw;}
+@media screen and (min-width: 640px) {
+  header h1 a{font-size: 2.1em}
+}
+nav{margin: 1em 0 2em}
 a{color: #000}
 a:hover{color: #000}
 a:visited{color: #333}
@@ -24,7 +27,7 @@ li{margin: 0 0 0.4em 0}
   a{text-decoration:none;color:#000}
 }
 #card{text-align:center; border-top: 1px dashed #cecece;border-bottom: 1px dashed #cecece; margin: 1em 0; padding: 2em 0;}
-#card h1{margin:0; padding:0}
+#card h1{margin:0 0 .4em ; padding:0}
 .sym{font-size:2em; color: #cecece; text-align:center; margin: 1em 0 0;font-weight: bold;}
 .sym span:hover{text-shadow:0 0 0.2em #EF2929, 0 0 0.2em #EF2929; cursor:pointer;}
 .author{text-align:right}
@@ -32,3 +35,11 @@ li{margin: 0 0 0.4em 0}
 .ar{text-align:right}
 .project img{max-width: 100%}
 .project-image{max-width: 100%}
+.PageNavigation {font-size: 14px;  display: block;  width: auto;  overflow: hidden;}
+.PageNavigation a {  display: block;  width: 50%;  float: left;  margin: 1em 0;}
+.PageNavigation .next {  text-align: right;}
+.bio:before{content: "🙞"; margin-right: .4em;}
+.bio:after{content: "🙜"; margin-left: .4em;}
+.cloud {text-align: center; line-height: 1.8em;}
+.cloud a{text-decoration: none; white-space: nowrap;}
+.cloud a:hover{text-decoration: underline}

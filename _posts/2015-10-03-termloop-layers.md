@@ -10,6 +10,8 @@ tags:
 
 Layers support for termloop
 
+License: MIT License
+
 Links:
 
 * [aquilax/termloop-layers](https://github.com/aquilax/termloop-layers)

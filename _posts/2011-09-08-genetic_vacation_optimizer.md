@@ -10,6 +10,8 @@ tags:
 
 Genetic vacation optimizer
 
+License: None
+
 Links:
 
 * [HomePage](aquilax.github.com)

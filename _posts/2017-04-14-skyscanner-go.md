@@ -10,6 +10,8 @@ tags:
 
 SkyScanner API Client
 
+License: MIT License
+
 Links:
 
 * [aquilax/skyscanner-go](https://github.com/aquilax/skyscanner-go)

@@ -8,6 +8,8 @@ tags:
   - PHP
 ---
 
+License: None
+
 Links:
 
 * [aquilax/dashboard](https://github.com/aquilax/dashboard)

@@ -10,6 +10,8 @@ tags:
 
 Sunrise/sunset calculation Dart library
 
+License: MIT License
+
 Links:
 
 * [aquilax/sunrise-sunset-calc](https://github.com/aquilax/sunrise-sunset-calc)

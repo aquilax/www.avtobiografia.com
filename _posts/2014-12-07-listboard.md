@@ -10,6 +10,8 @@ tags:
 
 Go based anonymous top list board
 
+License: MIT License
+
 Links:
 
 * [aquilax/listboard](https://github.com/aquilax/listboard)

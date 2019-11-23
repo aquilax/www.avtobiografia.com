@@ -10,6 +10,8 @@ tags:
 
 Command line quantity tracker in Clojure
 
+License: MIT License
+
 Links:
 
 * [aquilax/merki-clojure](https://github.com/aquilax/merki-clojure)

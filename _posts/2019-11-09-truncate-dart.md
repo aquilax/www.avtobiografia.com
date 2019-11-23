@@ -10,6 +10,8 @@ tags:
 
 String truncation library supporting multiple predefined and custom truncation strategies
 
+License: MIT License
+
 Links:
 
 * [aquilax/truncate-dart](https://github.com/aquilax/truncate-dart)

@@ -10,6 +10,8 @@ tags:
 
 Android application for rimichka.com
 
+License: None
+
 Links:
 
 * [HomePage](http://rimichka.com)

@@ -10,6 +10,8 @@ tags:
 
 Практическо ръководство по управление на бази данни
 
+License: None
+
 Links:
 
 * [HomePage](http://bazadanni.com/book)

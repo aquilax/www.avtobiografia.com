@@ -10,6 +10,8 @@ tags:
 
 Списък с думи на български език.
 
+License: None
+
 Links:
 
 * [aquilax/bg-words-dict](https://github.com/aquilax/bg-words-dict)

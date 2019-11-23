@@ -10,6 +10,8 @@ tags:
 
 Run Viber inside docker container
 
+License: MIT License
+
 Links:
 
 * [aquilax/docker-viber](https://github.com/aquilax/docker-viber)

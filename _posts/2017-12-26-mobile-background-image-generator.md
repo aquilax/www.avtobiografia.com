@@ -10,6 +10,8 @@ tags:
 
 Solid color background image generator
 
+License: MIT License
+
 Links:
 
 * [HomePage](https://background.avtobiografia.com/)

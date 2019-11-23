@@ -10,6 +10,8 @@ tags:
 
 Genetic betting with go
 
+License: None
+
 Links:
 
 * [HomePage](http://dev.horemag.net)

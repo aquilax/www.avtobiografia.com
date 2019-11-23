@@ -10,6 +10,8 @@ tags:
 
 Quantified aquilax
 
+License: MIT License
+
 Links:
 
 * [HomePage](http://quantified.avtobiografia.com/)

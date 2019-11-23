@@ -10,6 +10,8 @@ tags:
 
 Chrome extension to hide comments for certain users in Dnevnik.bg
 
+License: None
+
 Links:
 
 * [aquilax/dnevnik-trololo](https://github.com/aquilax/dnevnik-trololo)

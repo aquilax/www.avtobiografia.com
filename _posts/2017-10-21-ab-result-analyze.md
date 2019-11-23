@@ -10,6 +10,8 @@ tags:
 
 Apache Bench Result Analyzer
 
+License: MIT License
+
 Links:
 
 * [HomePage](https://ab-result-analyse.avtobiografia.com/)

@@ -10,6 +10,8 @@ tags:
 
 Naive Page Load Speed Chrome App Benchmark
 
+License: None
+
 Links:
 
 * [aquilax/pagebench](https://github.com/aquilax/pagebench)

@@ -10,6 +10,8 @@ tags:
 
 Library for generating Magento modules
 
+License: None
+
 Links:
 
 * [aquilax/magento-package-generator](https://github.com/aquilax/magento-package-generator)

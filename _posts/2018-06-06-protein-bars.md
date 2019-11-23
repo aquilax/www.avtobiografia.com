@@ -10,6 +10,8 @@ tags:
 
 Protein bar picker
 
+License: None
+
 Links:
 
 * [aquilax/protein-bars](https://github.com/aquilax/protein-bars)

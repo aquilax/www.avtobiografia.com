@@ -10,6 +10,8 @@ tags:
 
 Automatically exported from code.google.com/p/topsitecounter
 
+License: None
+
 Links:
 
 * [aquilax/topsitecounter](https://github.com/aquilax/topsitecounter)

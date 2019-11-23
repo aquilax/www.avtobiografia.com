@@ -10,6 +10,8 @@ tags:
 
 Naive text summarization for Go
 
+License: MIT License
+
 Links:
 
 * [aquilax/go-summary](https://github.com/aquilax/go-summary)

@@ -10,6 +10,8 @@ tags:
 
 Go package to identify different hashes
 
+License: GNU Lesser General Public License v3.0
+
 Links:
 
 * [aquilax/hash-identifier](https://github.com/aquilax/hash-identifier)

@@ -10,6 +10,8 @@ tags:
 
 Simple WebView Android App Tool
 
+License: MIT License
+
 Links:
 
 * [aquilax/python-android-webview](https://github.com/aquilax/python-android-webview)

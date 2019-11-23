@@ -10,6 +10,8 @@ tags:
 
 Test the releases API
 
+License: None
+
 Links:
 
 * [aquilax/release-test](https://github.com/aquilax/release-test)

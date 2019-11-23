@@ -10,6 +10,8 @@ tags:
 
 Scrabble library for Go
 
+License: None
+
 Links:
 
 * [aquilax/go-scrabble](https://github.com/aquilax/go-scrabble)
