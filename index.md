@@ -19,6 +19,7 @@ More about me also here:
  [Gyroscope](https://gyrosco.pe/aquilax/)
  [About.me](http://about.me/aquilax),
  [Twitter](http://twitter.com/aquilax),
+ <a rel="me" href="https://mastodon.cloud/@aquilax">Mastodon</a>,
  [Quantified aquilax](https://quantified.avtobiografia.com/),
 <div id="projects">
   <h2>Latest Projects</h2>
