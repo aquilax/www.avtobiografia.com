@@ -11,16 +11,15 @@ title: Avtobiografia
 You can check my [Curriculum vitae](/cv.html).
 
 More about me also here:
- [GitHub](https://github.com/aquilax),
- [LinkedIn](http://linkedin.com/in/aquilax),
- [GoodReads](http://www.goodreads.com/user/show/2821810-evgeniy-vasilev),
- [WakaTime](https://wakatime.com/@aquilax)
- [LastFM](http://www.last.fm/user/aquilax),
- [Gyroscope](https://gyrosco.pe/aquilax/)
- [About.me](http://about.me/aquilax),
- [Twitter](http://twitter.com/aquilax),
- <a rel="me" href="https://mastodon.cloud/@aquilax">Mastodon</a>,
- [Quantified aquilax](https://quantified.avtobiografia.com/),
+  <a rel="me" href="https://github.com/aquilax">GitHub</a>,
+  <a rel="me" href="https://linkedin.com/in/aquilax">LinkedIn</a>,
+  <a rel="me" href="https://www.goodreads.com/user/show/2821810-evgeniy-vasilev">GoodReads</a>,
+  <a rel="me" href="https://keybase.io/aquilax">Keybase</a>,
+  <a rel="me" href="https://wakatime.com/@aquilax">WakaTime</a>,
+  <a rel="me" href="https://www.last.fm/user/aquilax">LastFM</a>,
+  <a rel="me" href="https://about.me/aquilax">About.me</a>,
+  <a rel="me" href="https://twitter.com/aquilax">Twitter</a>,
+  <a rel="me" href="https://mastodon.cloud/@aquilax">Mastodon</a>
 <div id="projects">
   <h2>Latest Projects</h2>
   <ul>

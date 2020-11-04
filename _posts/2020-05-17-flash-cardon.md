@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Browser extension to help with learning new languages by reading web pages"
+title: "Flash Cardon - browser extension to help with learning new languages by reading web pages"
 category: Personal
 license: Unknown
 tags:
@@ -8,10 +8,11 @@ tags:
   - JavaScript
 ---
 
-Browser extension to help with learning new languages by reading web pages
+Flash Cardon - browser extension to help with learning new languages by reading web pages
 
 License: None
 
 Links:
 
+* [HomePage](https://chrome.google.com/webstore/detail/flash-cardon/kljjkndkgodhkabbkecjlladgmeapiaf)
 * [aquilax/flash-cardon](https://github.com/aquilax/flash-cardon)
