@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "RSS thing"
+title: "Modular RSS/Atom Feed aggregator prototype"
 category: Personal
 license: mit
 tags:
@@ -8,7 +8,7 @@ tags:
   - Go
 ---
 
-RSS thing
+Modular RSS/Atom Feed aggregator prototype
 
 License: MIT License
 

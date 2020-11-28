@@ -3,9 +3,10 @@ layout: default
 title: Avtobiografia
 ---
 
-<div id="card">
-  <h1>Evgeniy Vasilev</h1>
-  <em class="bio">fighting entropy since 1980</em>
+<div class="h-card" id="card">
+  <h1 class="p-name">Evgeniy Vasilev</h1>
+  <em class="bio p-note">fighting entropy since 1980</em>
+  <p><a class="u-url" href="https://www.avtobiografia.com/">www.avtobiografia.com</a></p>
 </div>
 
 You can check my [Curriculum vitae](/cv.html).
