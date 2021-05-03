@@ -14,5 +14,5 @@ License: MIT License
 
 Links:
 
-* [HomePage](https://hugo-task-management.netlify.app/)
+* [HomePage](https://hugo-task-management.netlify.app)
 * [aquilax/hugo-task-management](https://github.com/aquilax/hugo-task-management)

@@ -5,7 +5,7 @@ category: Personal
 license: Unknown
 tags:
   - github
-  - Python
+  - Shell
 ---
 
 Списък с думи на български език.
