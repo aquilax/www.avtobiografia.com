@@ -1,3 +1,5 @@
 _site
 _build.sh
 .jekyll-cache
+.bundle/
+vendor/
