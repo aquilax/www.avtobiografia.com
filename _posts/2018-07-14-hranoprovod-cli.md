@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Command line quantified self tool"
+title: "Diet tracker for the command line"
 category: Personal
 license: mit
 tags:
@@ -8,10 +8,11 @@ tags:
   - Go
 ---
 
-Command line quantified self tool
+Diet tracker for the command line
 
 License: MIT License
 
 Links:
 
+* [HomePage](https://hranoprovod.readthedocs.io/)
 * [aquilax/hranoprovod-cli](https://github.com/aquilax/hranoprovod-cli)

@@ -2,7 +2,8 @@
 layout: project
 title: Naive Bayes Classifier in PostgreSQL
 category: JARComputers
-tags: PostgreSQL
+tags:
+  - PostgreSQL
 ---
 
 As the title suggest its just naive Bayes classifier in PostgreSQL. Its not optimized but it's working;
