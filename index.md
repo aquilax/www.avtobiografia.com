@@ -21,6 +21,7 @@ More about me also here:
   <a rel="me" href="https://about.me/aquilax">About.me</a>,
   <a rel="me" href="https://twitter.com/aquilax">Twitter</a>,
   <a rel="me" href="https://mastodon.cloud/@aquilax">Mastodon</a>
+  <a rel="me" href="/life-stack.html">Life Stack</a>
 <div id="projects">
   <h2>Latest Projects</h2>
   <ul>
