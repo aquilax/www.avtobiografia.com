@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <div class="h-card" id="card">
+    <h1 class="p-name">Evgeniy Vasilev</h1>
+    <em class="bio p-note">fighting entropy since 1980</em>
+    <p><a class="u-url" href="https://www.avtobiografia.com/">www.avtobiografia.com</a></p>
+  </div>
+
+  <p>You can check my <a href="cv.html">Curriculum vitae</a>.</p>
+
+  <p>More about me also here:
+    <a rel="me" href="https://github.com/aquilax">GitHub</a>,
+    <a rel="me" href="https://linkedin.com/in/aquilax">LinkedIn</a>,
+    <a rel="me" href="https://www.goodreads.com/user/show/2821810-evgeniy-vasilev">GoodReads</a>,
+    <a rel="me" href="https://keybase.io/aquilax">Keybase</a>,
+    <a rel="me" href="https://wakatime.com/@aquilax">WakaTime</a>,
+    <a rel="me" href="https://www.last.fm/user/aquilax">LastFM</a>,
+    <a rel="me" href="https://about.me/aquilax">About.me</a>,
+    <a rel="me" href="https://twitter.com/aquilax">Twitter</a>,
+    <a rel="me" href="https://mastodon.cloud/@aquilax">Mastodon</a>
+    <a rel="me" href="/life-stack.html">Life Stack</a>
+  </p>
+
+  <main id="projects">
+    <h2>Latest Projects</h2>
+    <ul>
+      {{ range first 20 (where .Site.RegularPages "Type" "project").ByPublishDate.Reverse }}
+        {{ .Render "summary" }}
+      {{ end }}
+    </ul>
+    <p class="ar"><a href="/project.html">More projects…</a></p>
+
+    <h2 id="skills">Skills cloud</h2>
+    <div class="cloud">
+      <!-- {% tag_cloud font-size: 100 - 200% %} -->
+      <div class="container tagcloud">
+        {{ if ne (len $.Site.Taxonomies.tags) 0 }}
+          {{ $largestFontSize := 2.0 }}
+          {{ $smallestFontSize := 1.0 }}
+          {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+          {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
+          {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
+          {{ $spread := sub $max $min }}
+          {{ $fontStep := div $fontSpread $spread }}
+            {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+              {{ $tagCount := len $taxonomy.Pages }}
+              {{ $currentFontSize := (add $smallestFontSize (mul (sub $tagCount $min) $fontStep) ) }}
+              {{ $weigth := div (sub (math.Log $tagCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+              {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
+                <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}.html" class="tagcloud-item" style="font-size: {{ $currentFontSize }}rem;">
+                  {{ $name }}
+                </a>
+            {{ end }}
+        {{ end }}
+    </div>
+    </div>
+  </main>
+{{ end }}

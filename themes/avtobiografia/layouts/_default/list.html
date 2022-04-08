@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <nav itemprop="breadcrumb">
+    <a href="/">Home</a> &raquo;
+    {{ .Title }}
+  </nav>
+
+  <main>
+    {{ if .Title }}
+      {{ with .Title }}<h2>{{ . }}</h2>{{ end }}
+    {{ end }}
+
+    {{ range .Pages }}
+    <div class="bb">
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      {{ if ( .Params.tags ) }}
+      <p class="tech">Technologies used:
+        <em>{{ range .Params.tags }}<span class="tag" rel="tag"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}.html">{{ . }}</a></span> {{ end }}</em>
+      </p>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if .Content }}
+    {{ .Content }}
+    {{ end }}
+  </main>
+{{ end }}

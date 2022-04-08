@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <nav itemprop="breadcrumb">
+    <a href="/">Home</a> &raquo;
+    {{ .Title }}
+  </nav>
+
+  <article>
+    <div>
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
