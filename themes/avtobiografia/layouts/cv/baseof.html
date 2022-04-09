@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <title>{{ .Title }}</title>
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <style type="text/css">
+    body{font-family:Arial, Sans;font-size:14px;width:720px;margin:0 auto;}
+    #cv{border-collapse:collapse}
+    #cv td, #cv th{padding: .4em .6em; vertical-align: top}
+    #cv th{width:250px; border-right:3px solid #cecece; text-align:right; font-weight:normal}
+    .b{font-weight:bold}
+    #cv th.h3{font-size:1.2em}
+    #cv th.h2{font-size:1.3em; font-weight:bold;padding:2em .6em 1em;}
+    #cv th.h1{font-size:1.4em}
+    @media print {
+      body{width:auto;margin:0;}
+      a{text-decoration:none;color:#000}
+    }
+  </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', '{{ .Site.Params.googleAnalytics }}');
+	</script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/Person">
+  {{ block "main" . }}{{ end }}
+</body>
+</html>

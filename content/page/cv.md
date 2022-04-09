@@ -2,6 +2,7 @@
 layout: cv
 title: CV
 url: /cv.html
+type: cv
 ---
 {{< rawhtml >}}
 <table id="cv">
@@ -44,7 +45,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#spotify-ref">Spotify</a>, Stockholm, Sweden</td>
+    <td><a itemprop="worksFor" href="project.html#spotify-ref">Spotify</a>, Stockholm, Sweden</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -65,7 +66,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#netent-ref">Netent</a>, Stockholm, Sweden</td>
+    <td><a itemprop="worksFor" href="project.html#netent-ref">Netent</a>, Stockholm, Sweden</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -86,7 +87,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#fyndiq-ref">Fyndiq</a>, Stockholm, Sweden</td>
+    <td><a itemprop="worksFor" href="project.html#fyndiq-ref">Fyndiq</a>, Stockholm, Sweden</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -107,7 +108,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#fyndiq-ref">Fyndiq</a>, Stockholm, Sweden</td>
+    <td><a itemprop="worksFor" href="project.html#fyndiq-ref">Fyndiq</a>, Stockholm, Sweden</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -128,7 +129,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#wikia-ref">Wikia</a>, Poznan, Poland</td>
+    <td><a itemprop="worksFor" href="project.html#wikia-ref">Wikia</a>, Poznan, Poland</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -149,7 +150,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#DarkiumStudio-ref">Darkium Studio</a>, Sofia, Bulgaria</td>
+    <td><a itemprop="worksFor" href="project.html#DarkiumStudio-ref">Darkium Studio</a>, Sofia, Bulgaria</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -169,7 +170,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#WebinfluenceStudio-ref">Webinfluence Studio</a>, Sofia, Bulgaria</td>
+    <td><a itemprop="worksFor" href="project.html#WebinfluenceStudio-ref">Webinfluence Studio</a>, Sofia, Bulgaria</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -190,7 +191,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#JARComputers-ref">JAR Computers</a>, Sofia, Bulgaria</td>
+    <td><a itemprop="worksFor" href="project.html#JARComputers-ref">JAR Computers</a>, Sofia, Bulgaria</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -211,7 +212,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html">Office 1 Bulgaria</a>, Sofia, Bulgaria</td>
+    <td><a itemprop="worksFor" href="project.html">Office 1 Bulgaria</a>, Sofia, Bulgaria</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -233,7 +234,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#Office1International-ref">Office 1 International</a> - branch Bulgaria, Sofia, Bulgaria</td>
+    <td><a itemprop="worksFor" href="project.html#Office1International-ref">Office 1 International</a> - branch Bulgaria, Sofia, Bulgaria</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
@@ -254,7 +255,7 @@ url: /cv.html
   </tr>
   <tr>
     <th>Name and address of employer</th>
-    <td><a itemprop="worksFor" href="projects.html#911.bg-ref">911.bg</a>, Sofia, Bulgaria</td>
+    <td><a itemprop="worksFor" href="project.html#911.bg-ref">911.bg</a>, Sofia, Bulgaria</td>
   </tr>
   <tr>
     <th>Type of business or sector</th>
