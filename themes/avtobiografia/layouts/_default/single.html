@@ -1,0 +1,39 @@
+{{ define "main" }}
+  <nav itemprop="breadcrumb">
+    <a href="/">Home</a> &raquo;
+    <a href="/projects.html">Projects</a> &raquo;
+    {{ .Title }}
+  </nav>
+
+  <article class="h-entry">
+    <h2 class="p-name">{{ .Title }}</h2>
+
+    {{ if ( .Params.tags ) }}
+    <div>
+      <p class="tech">Technologies used:
+        <em>{{ range .Params.tags }}<span class="tag" rel="tag"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}.html">{{ . }}</a></span> {{ end }}</em>
+      </p>
+    </div>
+    {{ end }}
+
+    {{ if ( .Params.images ) }}
+      {{ range .Params.images }}<img class="project-image" src="/img/{{ . }}">{{ end }}
+    {{ end }}
+
+    <div class="project e-content">
+      {{ .Content }}
+    </div>
+    <a class="u-url" href="{{ .Permalink }}">
+      Published <time class="dt-published">{{ .Date.Format "2006-01-02" }}</time>
+    </a>
+  </article>
+  <hr/>
+  <div class="PageNavigation">
+    {{ if .PrevInSection }}
+    <a class="prev" href="{{ .PrevInSection.Permalink }}">&laquo; {{ .PrevInSection.Title }}</a>
+    {{ end }}
+    {{ if .NextInSection }}
+    <a class="next" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &raquo;</a>
+    {{ end }}
+  </div>
+{{ end }}

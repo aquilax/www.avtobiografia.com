@@ -1,0 +1,10 @@
+baseURL: https://www.avtobiografia.com/
+disablePathToLower: true
+languageCode: en-us
+title: Evgeniy Vasilev
+theme: "avtobiografia"
+disableHugoGeneratorInject: true
+uglyurls: true
+
+params:
+  googleAnalytics: "UA-115818-51"
