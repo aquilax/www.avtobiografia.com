@@ -19,5 +19,5 @@ License: MIT License
 
 Links:
 
-* [HomePage](https://hranoprovod.readthedocs.io/)
+* [HomePage](https://hranoprovod.readthedocs.io)
 * [aquilax/hranoprovod-cli](https://github.com/aquilax/hranoprovod-cli)

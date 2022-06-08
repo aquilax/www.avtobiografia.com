@@ -33,7 +33,8 @@ url: life-stack.html
 * [goodreads.com](https://www.goodreads.com/user/show/2821810-evgeniy-vasilev) - Books
 * [biograph](https://github.com/aquilax/biograph) - things I own, places I've lived a.s.o things that have beginning and end
 * [last.fm](https://www.last.fm/user/aquilax) - music listening history
-* [Zero](https://play.google.com/store/apps/details?id=com.zerofasting.zero) - tracking IF intervals. It used to be better. It's bloated and slow now and I'm looking for a replacement
+* [IF](https://if.avtobiografia.com/) - got frustrated with Zero and wrote a simple PWA whcih accomplishes what I need from a IF tracker
+* DEPRECATED 2022-05 [Zero](https://play.google.com/store/apps/details?id=com.zerofasting.zero) - tracking IF intervals. It used to be better. It's bloated and slow now and I'm looking for a replacement
 * [aTimeLogger](https://play.google.com/store/apps/details?id=com.aloggers.atimeloggerapp) - time tracking
 * [ledger-cli](https://www.ledger-cli.org/) - text file double entry accounting
 
