@@ -7,8 +7,8 @@ url: life-stack.html
 ## Hardware
 
 * [Lenovo X280](https://en.wikipedia.org/wiki/ThinkPad_X_series#X280) - way worse than my X240 but was a cheap purchase
-* [MI2 Lite](https://en.wikipedia.org/wiki/Xiaomi_Mi_A2_Lite) - dual SIM model
-* Google Nest Hub
+* [Samsung Galaxy A13](https://en.wikipedia.org/wiki/Samsung_Galaxy_A13) - dual SIM model
+* [Google Nest Hub](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)#Home_Hub)
 * [Mi Band 6](https://en.wikipedia.org/wiki/Xiaomi_Mi_Smart_Band_6)
 * [Sony MDR-E9LP](https://www.sony.com/ug/electronics/in-ear-headphones/mdr-e9lp) - wired headphones, sound is so so but they last long
 

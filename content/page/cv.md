@@ -41,7 +41,28 @@ type: cv
 
   <tr>
     <th>Dates (from – to)</th>
-    <td class="b">January 2018 - Current</td>
+    <td class="b">May 2022- January 2024 </td>
+  </tr>
+  <tr>
+    <th>Name and address of employer</th>
+    <td><a itemprop="worksFor" href="project.html#joint-academy-ref">Joint Academy</a>, Remote, Sweden</td>
+  </tr>
+  <tr>
+    <th>Type of business or sector</th>
+    <td>Healthcare</td>
+  </tr>
+  <tr>
+    <th>Occupation or position held</th>
+    <td itemprop="jobTitle">Senior Software Engineer</td>
+  </tr>
+  <tr>
+    <th>Main activities and responsibilities</th>
+    <td>Architecture of scheduling and live booking systems</td>
+  </tr>
+
+  <tr>
+    <th>Dates (from – to)</th>
+    <td class="b">January 2018 - April 2024</td>
   </tr>
   <tr>
     <th>Name and address of employer</th>
@@ -57,7 +78,7 @@ type: cv
   </tr>
   <tr>
     <th>Main activities and responsibilities</th>
-    <td></td>
+    <td>Customer facing web properties related to the non-standard Premium plans.</td>
   </tr>
 
   <tr>
@@ -339,7 +360,7 @@ type: cv
   </tr>
   <tr>
     <th class="h3">Technical skills and competences</th>
-    <td>PHP, XHTML, CSS, Delphi, CodeIgniter, JavaScript, Google Go, MySQL, PostgreSQL, Linux, Windows, l18n</td>
+    <td>PHP, XHTML, CSS, Delphi, CodeIgniter, JavaScript, Type Script, Go, MySQL, PostgreSQL, Linux, Windows, l18n</td>
   </tr>
 
   <tr>
