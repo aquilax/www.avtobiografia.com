@@ -37,5 +37,5 @@ li{margin: 0 0 0.4em 0}
 .bio:before{content: "\01F65E"; margin-right: .4em;}
 .bio:after{content: "\01F65C"; margin-left: .4em;}
 .cloud {text-align: center; line-height: 1.8em;}
-.cloud a{text-decoration: none; white-space: nowrap;}
+.cloud a{text-decoration: none;}
 .cloud a:hover{text-decoration: underline}

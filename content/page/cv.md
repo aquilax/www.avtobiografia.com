@@ -41,6 +41,27 @@ type: cv
 
   <tr>
     <th>Dates (from – to)</th>
+    <td class="b">February 2024 - current </td>
+  </tr>
+  <tr>
+    <th>Name and address of employer</th>
+    <td><a itemprop="worksFor" href="project.html#electronic-arts-ref">Electronic Arts</a>, Hybrid, Sweden</td>
+  </tr>
+  <tr>
+    <th>Type of business or sector</th>
+    <td>Video Games</td>
+  </tr>
+  <tr>
+    <th>Occupation or position held</th>
+    <td itemprop="jobTitle">FullStack Software Engineer</td>
+  </tr>
+  <tr>
+    <th>Main activities and responsibilities</th>
+    <td>TBD</td>
+  </tr>
+
+  <tr>
+    <th>Dates (from – to)</th>
     <td class="b">May 2022- January 2024 </td>
   </tr>
   <tr>
